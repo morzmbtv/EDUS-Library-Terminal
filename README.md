@@ -93,7 +93,7 @@ node scripts/qa-browser.mjs
 - `tests/` — проверки правил фонда и состояния терминала.
 - `screenshots/` и `.qa/` — полноразмерные снимки и результаты браузерной проверки.
 
-Визуальные правила и источники: [DESIGN.md](DESIGN.md), [.reference/ASSET_MANIFEST.md](.reference/ASSET_MANIFEST.md). Изменения: [CHANGELOG.md](CHANGELOG.md). Итоги выполненных проверок с областью версии: [QA_REPORT.md](QA_REPORT.md).
+Визуальные правила и источники: [DESIGN.md](DESIGN.md), [manifest публичных ассетов](public/assets/validation/ASSET_MANIFEST.md). Изменения: [CHANGELOG.md](CHANGELOG.md). Итоги выполненных проверок с областью версии: [QA_REPORT.md](QA_REPORT.md).
 
 ## Границы готовности
 
@@ -129,4 +129,4 @@ npm run build:terminal-test
 npm run package:terminal-test
 ```
 
-Готовый каталог: [release/edus-library-terminal-test](release/edus-library-terminal-test). Он поднимает только loopback static service на Ubuntu и открывает отдельный Chrome kiosk profile. В шапке test package виден «Тестовый режим», а в настройках есть закрытая по умолчанию панель явного захвата карты и scanner codes. Подробные шаги: [terminal-test/HARDWARE_TEST.md](terminal-test/HARDWARE_TEST.md). Production build не подменяется этим адаптером и продолжает безопасно блокировать библиотечные операции до подтверждённого API.
+После этой команды готовый каталог создаётся как `release/edus-library-terminal-test`; он намеренно не хранится в Git, поскольку воспроизводится из опубликованных исходников. Пакет поднимает только loopback static service на Ubuntu и открывает отдельный Chrome kiosk profile. В шапке test package виден «Тестовый режим», а в настройках есть закрытая по умолчанию панель явного захвата карты и scanner codes. Подробные шаги: [terminal-test/HARDWARE_TEST.md](terminal-test/HARDWARE_TEST.md). Production build не подменяется этим адаптером и продолжает безопасно блокировать библиотечные операции до подтверждённого API.

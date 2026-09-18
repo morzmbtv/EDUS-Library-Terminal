@@ -1,0 +1,214 @@
+[
+  {
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1
+    },
+    "scenarios": 1,
+    "passed": 0,
+    "screenshots": 7,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "badResponses": 0,
+    "externalRequests": [],
+    "failures": [
+      {
+        "stage": "04-scan-empty",
+        "kind": "interaction",
+        "scenario": "issue-and-scan-errors",
+        "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+      }
+    ],
+    "smallTouchStates": [
+      {
+        "name": "04-scan-empty",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 181.5,
+            "height": 42,
+            "top": 318,
+            "bottom": 360,
+            "left": 1556,
+            "right": 1738,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      },
+      {
+        "name": "FAIL-issue-and-scan-errors",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 181.5,
+            "height": 42,
+            "top": 318,
+            "bottom": 360,
+            "left": 1556,
+            "right": 1738,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 1600,
+      "height": 900,
+      "dpr": 1
+    },
+    "scenarios": 1,
+    "passed": 0,
+    "screenshots": 4,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "badResponses": 0,
+    "externalRequests": [],
+    "failures": [
+      {
+        "stage": "02-identify",
+        "kind": "interaction",
+        "scenario": "issue-and-scan-errors",
+        "message": "locator.boundingBox: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.nfc-animation .edus-card')\u001b[22m\n"
+      }
+    ],
+    "smallTouchStates": []
+  },
+  {
+    "viewport": {
+      "width": 1366,
+      "height": 768,
+      "dpr": 1
+    },
+    "scenarios": 1,
+    "passed": 0,
+    "screenshots": 7,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "badResponses": 0,
+    "externalRequests": [],
+    "failures": [
+      {
+        "stage": "04-scan-empty",
+        "kind": "interaction",
+        "scenario": "issue-and-scan-errors",
+        "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+      }
+    ],
+    "smallTouchStates": [
+      {
+        "name": "04-scan-empty",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 165.5,
+            "height": 28,
+            "top": 256,
+            "bottom": 284,
+            "left": 1014,
+            "right": 1179,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      },
+      {
+        "name": "FAIL-issue-and-scan-errors",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 165.5,
+            "height": 28,
+            "top": 256,
+            "bottom": 284,
+            "left": 1014,
+            "right": 1179,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "dpr": 1
+    },
+    "scenarios": 1,
+    "passed": 0,
+    "screenshots": 7,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "badResponses": 0,
+    "externalRequests": [],
+    "failures": [
+      {
+        "stage": "02-identify",
+        "kind": "layout",
+        "message": "Horizontal overflow 396/390"
+      },
+      {
+        "stage": "04-scan-empty",
+        "kind": "interaction",
+        "scenario": "issue-and-scan-errors",
+        "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+      }
+    ],
+    "smallTouchStates": [
+      {
+        "name": "04-scan-empty",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 181.5,
+            "height": 42,
+            "top": 761,
+            "bottom": 803,
+            "left": 164,
+            "right": 346,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      },
+      {
+        "name": "FAIL-issue-and-scan-errors",
+        "controls": [
+          {
+            "text": "Показать список",
+            "tag": "BUTTON",
+            "width": 181.5,
+            "height": 42,
+            "top": 761,
+            "bottom": 803,
+            "left": 164,
+            "right": 346,
+            "disabled": false,
+            "inViewport": true,
+            "keyboard": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "baseUrl": "http://127.0.0.1:43180",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "checks": [
+    "reader card immediately shows two grey active-loan rows and correct 2-title / 3-book counters",
+    "single scanned copy is selected once, exposes actions, and removal preserves the active list",
+    "manual active-loan search requires explicit marking and supports 1 of 2 legacy copies",
+    "context help preserves the return draft",
+    "reset confirmation keeps active rows and reader context",
+    "another reader’s copy is rejected without altering the current list",
+    "confirmation receives only marked loans and refreshes active-loan quantities after success"
+  ],
+  "failures": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "finishedAt": "2026-09-17T05:43:31.470Z",
+  "passed": true
+}

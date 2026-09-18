@@ -1,0 +1,73 @@
+{
+  "baseUrl": "http://127.0.0.1:5173",
+  "startedAt": "2026-09-16T12:40:58.902Z",
+  "runs": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "checks": [
+        "reader panel, active step, empty basket, controls, and width",
+        "manual inventory and ISBN dialog flows",
+        "real scanner adapter adds an eligible copy",
+        "context help preserves basket and blocks hidden scans",
+        "reader change requires explicit basket-clear consent",
+        "clear confirmation preserves selected reader"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1536,
+        "height": 1024
+      },
+      "checks": [
+        "reader panel, active step, empty basket, controls, and width",
+        "manual inventory and ISBN dialog flows",
+        "real scanner adapter adds an eligible copy",
+        "context help preserves basket and blocks hidden scans",
+        "reader change requires explicit basket-clear consent",
+        "clear confirmation preserves selected reader"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "checks": [
+        "reader panel, active step, empty basket, controls, and width",
+        "manual inventory and ISBN dialog flows",
+        "real scanner adapter adds an eligible copy",
+        "context help preserves basket and blocks hidden scans",
+        "reader change requires explicit basket-clear consent",
+        "clear confirmation preserves selected reader"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "checks": [
+        "reader panel, active step, empty basket, controls, and width",
+        "manual inventory and ISBN dialog flows",
+        "real scanner adapter adds an eligible copy",
+        "context help preserves basket and blocks hidden scans",
+        "reader change requires explicit basket-clear consent",
+        "clear confirmation preserves selected reader"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "failures": [],
+  "finishedAt": "2026-09-16T12:41:11.689Z",
+  "passed": true
+}

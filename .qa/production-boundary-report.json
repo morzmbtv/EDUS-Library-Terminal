@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://127.0.0.1:43173",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "checks": [
+    "production bundle renders the approved UI, has no demo controls, and blocks reader identification until library API configuration/adapter is confirmed"
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

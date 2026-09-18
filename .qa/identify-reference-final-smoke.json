@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-09-16T10:21:11.252Z",
+  "passed": true,
+  "reason": "Final component fallback reduced to 253px for the existing gallery. Identification explicitly sets --card-height:370px at this viewport; its rendered composition is unchanged.",
+  "viewport": {
+    "width": 1536,
+    "height": 1024,
+    "dpr": 1
+  },
+  "measurements": {
+    "card": {
+      "x": 660,
+      "y": 344,
+      "width": 216,
+      "height": 370,
+      "centerX": 768
+    },
+    "manual": {
+      "x": 570,
+      "y": 824,
+      "width": 396,
+      "height": 94,
+      "centerX": 768
+    },
+    "help": {
+      "x": 1154,
+      "y": 234,
+      "width": 350,
+      "height": 427.1875,
+      "centerX": 1329
+    },
+    "explicitCardHeight": "370px",
+    "horizontalOverflow": false,
+    "verticalOverflow": false
+  },
+  "screenshot": "screenshots/identify-reference/1536x1024/13-final-fallback-smoke.png",
+  "comparison": {
+    "baseline": "screenshots/identify-reference/1536x1024/01-help-open.png",
+    "crop": {
+      "left": 0,
+      "top": 180,
+      "width": 1536,
+      "height": 844
+    },
+    "changedChannels": 0,
+    "excluded": "Header/navigation above y180, including the live clock."
+  },
+  "errors": [],
+  "method": "Fresh isolated Chromium context; real controls and read-only geometry. Original 33-scenario report and captures preserved."
+}

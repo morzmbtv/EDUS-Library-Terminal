@@ -1,0 +1,32 @@
+{
+  "path": "screenshots/iteration2/overview.png",
+  "width": 1672,
+  "height": 1614,
+  "method": "Contact sheet assembled from unaltered full-viewport PNG captures; proportional resizing for overview only.",
+  "sources": [
+    {
+      "path": "screenshots/iteration2/1600x900/01-home.png",
+      "label": "Главная"
+    },
+    {
+      "path": "screenshots/iteration2/1600x900/02-issue-identify.png",
+      "label": "Выдача · выбор читателя"
+    },
+    {
+      "path": "screenshots/iteration2/1600x900/05-accept-identify.png",
+      "label": "Приём · выбор читателя"
+    },
+    {
+      "path": "screenshots/iteration2/1600x900/08-accept-scan.png",
+      "label": "Приём книг"
+    },
+    {
+      "path": "screenshots/iteration2/1600x900/09-wrong-reader-book.png",
+      "label": "Книга другого читателя"
+    },
+    {
+      "path": "screenshots/iteration2/1600x900/10-help-with-return-basket.png",
+      "label": "Контекстная помощь"
+    }
+  ]
+}

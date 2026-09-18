@@ -3,7 +3,7 @@ dist/
 dist-terminal-test/
 release/
 .npm-cache/
-.qa/
+.qa/tmp/
 .qa-portable/
 .reference/
 .qa-terminal-test-server.pid
@@ -11,11 +11,3 @@ __pycache__/
 *.py[cod]
 *.log
 *.tsbuildinfo
-
-# Generated visual QA history is reproducible. Keep only the current, compact
-# evidence sets referenced by the project handoff.
-screenshots/*
-!screenshots/terminal-test/
-!screenshots/terminal-test/**
-!screenshots/accept-return-list/
-!screenshots/accept-return-list/**

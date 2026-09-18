@@ -1,0 +1,53 @@
+{
+  "baseUrl": "http://127.0.0.1:5173",
+  "sourceUrl": "file:///C:/Users/User/Desktop/EDUS_card_line_animation.html?autoplay=0",
+  "startedAt": "2026-09-16T11:46:22.415Z",
+  "runs": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "name": "1920x1080",
+      "checks": [
+        "issue: idle, proportions, and manual search",
+        "issue: error, reading line, success marker, and reader transition",
+        "accept: idle, proportions, and manual search",
+        "accept: error, reading line, success marker, and reader transition"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "name": "1366x768",
+      "checks": [
+        "issue: idle, proportions, and manual search",
+        "issue: error, reading line, success marker, and reader transition",
+        "accept: idle, proportions, and manual search",
+        "accept: error, reading line, success marker, and reader transition"
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "failures": [],
+  "source": {
+    "card": {
+      "width": 216,
+      "height": 370
+    },
+    "screenshot": "screenshots\\card-line-animation\\00-source-idle.png"
+  },
+  "reducedMotion": {
+    "passed": true,
+    "screenshot": "screenshots\\card-line-animation\\1366x768-issue-reading-reduced-motion.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "finishedAt": "2026-09-16T11:46:45.784Z",
+  "passed": true
+}

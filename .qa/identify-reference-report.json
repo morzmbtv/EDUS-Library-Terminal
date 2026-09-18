@@ -1,0 +1,5776 @@
+{
+  "timestamp": "2026-09-16T10:16:47.574Z",
+  "baseURL": "http://127.0.0.1:5173",
+  "method": "Fresh isolated Chromium context for each scenario. Real UI controls and scanner-like keyboard events. Read-only DOM geometry/animation observations; no state injection, application imports, storage writes or changes to the user browser.",
+  "reference": {
+    "source": "C:/Users/User/AppData/Local/Temp/codex-clipboard-ae6a482a-904b-4386-b019-52cc2281f139.png",
+    "localCopy": "screenshots\\identify-reference\\reference.png",
+    "suppliedSize": [
+      1536,
+      1024
+    ]
+  },
+  "asset": {
+    "path": "public/assets/edus-card-schematic.svg",
+    "viewBox": "0 0 216 370",
+    "externalReferences": [],
+    "embeddedRaster": false,
+    "filtersOrGradients": false
+  },
+  "runs": [
+    {
+      "viewport": {
+        "width": 1536,
+        "height": 1024,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "reference-open-closed-help-and-geometry",
+          "passed": true
+        },
+        {
+          "name": "idle-stability-both-operations",
+          "passed": true
+        },
+        {
+          "name": "live-error-retry-reading-success",
+          "passed": true
+        },
+        {
+          "name": "pending-identification-kept-behind-help",
+          "passed": true
+        },
+        {
+          "name": "cancel-inflight-does-not-navigate-late",
+          "passed": true
+        },
+        {
+          "name": "operation-route-cancels-inflight-identification",
+          "passed": true
+        },
+        {
+          "name": "manual-search-distinct-readers-preserves-context",
+          "passed": true
+        },
+        {
+          "name": "reduced-motion-real-states",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-help-open",
+          "path": "screenshots\\identify-reference\\1536x1024\\01-help-open.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1443,
+              "y": 239,
+              "bottom": 295,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": {
+            "x": 1154,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1329,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-help-closed",
+          "path": "screenshots\\identify-reference\\1536x1024\\02-help-closed.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1344,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1416,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 570,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-issue-idle",
+          "path": "screenshots\\identify-reference\\1536x1024\\03-issue-idle.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1344,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1416,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 570,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-accept-idle",
+          "path": "screenshots\\identify-reference\\1536x1024\\03-accept-idle.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1344,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1416,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 570,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-error",
+          "path": "screenshots\\identify-reference\\1536x1024\\04-error.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1344,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1416,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 570,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1040,
+              "y": 942,
+              "bottom": 998,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading",
+          "path": "screenshots\\identify-reference\\1536x1024\\05-reading.png",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "name": "06-success",
+          "path": "screenshots\\identify-reference\\1536x1024\\06-success.png",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "name": "07-accept-reader-selected",
+          "path": "screenshots\\identify-reference\\1536x1024\\07-accept-reader-selected.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1360,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1432,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 459.453125,
+              "height": 56,
+              "x": 64,
+              "y": 413.984375,
+              "bottom": 469.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 375.625,
+              "y": 514.984375,
+              "bottom": 570.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 473.453125,
+              "height": 87,
+              "x": 57,
+              "y": 583.984375,
+              "bottom": 670.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 473.453125,
+              "height": 87,
+              "x": 57,
+              "y": 670.984375,
+              "bottom": 757.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1330.4375,
+              "y": 345.796875,
+              "bottom": 401.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1258.65625,
+              "y": 928,
+              "bottom": 1000,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "08-pending-success-help-open",
+          "path": "screenshots\\identify-reference\\1536x1024\\08-pending-success-help-open.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1443,
+              "y": 239,
+              "bottom": 295,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": {
+            "x": 1154,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1329,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-issue-selected",
+          "path": "screenshots\\identify-reference\\1536x1024\\09-manual-issue-selected.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1360,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1432,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 253.109375,
+              "height": 56,
+              "x": 167.171875,
+              "y": 598.1875,
+              "bottom": 654.1875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1330.4375,
+              "y": 345.796875,
+              "bottom": 401.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1258.65625,
+              "y": 928,
+              "bottom": 1000,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-accept-selected",
+          "path": "screenshots\\identify-reference\\1536x1024\\09-manual-accept-selected.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1360,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1432,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 459.453125,
+              "height": 56,
+              "x": 64,
+              "y": 413.984375,
+              "bottom": 469.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 375.625,
+              "y": 514.984375,
+              "bottom": 570.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Абай жолы. Бірінші кітапИндивидуальный экземпляр · 1 шт.",
+              "width": 473.453125,
+              "height": 87,
+              "x": 57,
+              "y": 583.984375,
+              "bottom": 670.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 1 шт.",
+              "width": 473.453125,
+              "height": 87,
+              "x": 57,
+              "y": 670.984375,
+              "bottom": 757.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1330.4375,
+              "y": 345.796875,
+              "bottom": 401.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1258.65625,
+              "y": 928,
+              "bottom": 1000,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "10-reduced-motion-reading",
+          "path": "screenshots\\identify-reference\\1536x1024\\10-reduced-motion-reading.png",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "name": "11-reduced-motion-error",
+          "path": "screenshots\\identify-reference\\1536x1024\\11-reduced-motion-error.png",
+          "width": 1536,
+          "height": 1024,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1344,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1416,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1277.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 570,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1040,
+              "y": 942,
+              "bottom": 998,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 543,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 768,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 474.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 768,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 501.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 767.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 570,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 768,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "12-reduced-motion-success",
+          "path": "screenshots\\identify-reference\\1536x1024\\12-reduced-motion-success.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "observations": [
+        {
+          "type": "reference-geometry",
+          "closed": {
+            "card": {
+              "x": 660,
+              "y": 344,
+              "width": 216,
+              "height": 370,
+              "centerX": 768,
+              "bottom": 714
+            },
+            "heading": {
+              "x": 474.765625,
+              "y": 184,
+              "width": 586.46875,
+              "height": 58,
+              "centerX": 768,
+              "bottom": 242
+            },
+            "manual": {
+              "x": 570,
+              "y": 824,
+              "width": 396,
+              "height": 94
+            }
+          },
+          "help": {
+            "x": 1154,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1329,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "helpDoesNotMoveComposition": true,
+          "newScanBlockedWhileHelpOpen": true
+        },
+        {
+          "type": "real-adapter-states",
+          "states": [
+            {
+              "state": "nfc-animation state-error",
+              "card": {
+                "x": 660,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-reading",
+              "card": {
+                "x": 660,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-success",
+              "card": {
+                "x": 660,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": true
+            }
+          ],
+          "readingPositions": [
+            "14.2344px",
+            "14.2812px",
+            "14.4531px",
+            "14.7188px",
+            "15.0938px",
+            "15.5781px",
+            "16.1875px",
+            "16.9062px",
+            "17.75px",
+            "18.6875px",
+            "19.75px",
+            "20.9375px",
+            "22.2344px",
+            "23.6719px",
+            "25.2031px",
+            "26.875px",
+            "28.6719px",
+            "30.5781px",
+            "32.6094px",
+            "34.7812px",
+            "37.0625px",
+            "39.4688px",
+            "42.0156px",
+            "44.6562px",
+            "47.4375px",
+            "50.3438px",
+            "53.375px",
+            "56.5312px",
+            "59.7969px",
+            "63.1875px"
+          ],
+          "stationaryCard": {
+            "x": 660,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "centerX": 768,
+            "bottom": 714
+          }
+        },
+        {
+          "type": "pending-identification",
+          "heldWhileHelpOpen": true,
+          "readerAfterClose": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "same-document-route-cancellation",
+          "from": "issue",
+          "to": "#/accept",
+          "previousCard": "EDUS-1001",
+          "selectedAfterNewScan": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "issue",
+          "query": "Айша",
+          "selected": "Сәрсенова Айша Ерланқызы"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "accept",
+          "query": "Әлихан",
+          "selected": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "reduced-motion",
+          "runningAnimations": 0,
+          "visibleStaticReadingLine": true,
+          "errorAndSuccessFromAdapter": true
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "reference-open-closed-help-and-geometry",
+          "passed": true
+        },
+        {
+          "name": "idle-stability-both-operations",
+          "passed": true
+        },
+        {
+          "name": "live-error-retry-reading-success",
+          "passed": true
+        },
+        {
+          "name": "pending-identification-kept-behind-help",
+          "passed": true
+        },
+        {
+          "name": "cancel-inflight-does-not-navigate-late",
+          "passed": true
+        },
+        {
+          "name": "operation-route-cancels-inflight-identification",
+          "passed": true
+        },
+        {
+          "name": "manual-search-distinct-readers-preserves-context",
+          "passed": true
+        },
+        {
+          "name": "reduced-motion-real-states",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-help-open",
+          "path": "screenshots\\identify-reference\\1920x1080\\01-help-open.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1827,
+              "y": 239,
+              "bottom": 295,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": {
+            "x": 1538,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1713,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-help-closed",
+          "path": "screenshots\\identify-reference\\1920x1080\\02-help-closed.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1728,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1800,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1661.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 762,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-issue-idle",
+          "path": "screenshots\\identify-reference\\1920x1080\\03-issue-idle.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1728,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1800,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1661.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 762,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-accept-idle",
+          "path": "screenshots\\identify-reference\\1920x1080\\03-accept-idle.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1728,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1800,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1661.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 762,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-error",
+          "path": "screenshots\\identify-reference\\1920x1080\\04-error.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1728,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1800,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1661.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 762,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1232,
+              "y": 942,
+              "bottom": 998,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading",
+          "path": "screenshots\\identify-reference\\1920x1080\\05-reading.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "06-success",
+          "path": "screenshots\\identify-reference\\1920x1080\\06-success.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "07-accept-reader-selected",
+          "path": "screenshots\\identify-reference\\1920x1080\\07-accept-reader-selected.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1744,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1816,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 104,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1613.515625,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 555.09375,
+              "height": 56,
+              "x": 112,
+              "y": 437.984375,
+              "bottom": 493.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 519.265625,
+              "y": 538.984375,
+              "bottom": 594.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "x": 105,
+              "y": 607.984375,
+              "bottom": 694.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "x": 105,
+              "y": 694.984375,
+              "bottom": 781.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1666.4375,
+              "y": 369.796875,
+              "bottom": 425.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1642.65625,
+              "y": 984,
+              "bottom": 1056,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "08-pending-success-help-open",
+          "path": "screenshots\\identify-reference\\1920x1080\\08-pending-success-help-open.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1827,
+              "y": 239,
+              "bottom": 295,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": {
+            "x": 1538,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1713,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-issue-selected",
+          "path": "screenshots\\identify-reference\\1920x1080\\09-manual-issue-selected.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1744,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1816,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 104,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1613.515625,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 253.109375,
+              "height": 56,
+              "x": 262.984375,
+              "y": 622.1875,
+              "bottom": 678.1875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1666.4375,
+              "y": 369.796875,
+              "bottom": 425.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1642.65625,
+              "y": 984,
+              "bottom": 1056,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-accept-selected",
+          "path": "screenshots\\identify-reference\\1920x1080\\09-manual-accept-selected.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1744,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1816,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 104,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1613.515625,
+              "y": 136,
+              "bottom": 192,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 555.09375,
+              "height": 56,
+              "x": 112,
+              "y": 437.984375,
+              "bottom": 493.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 519.265625,
+              "y": 538.984375,
+              "bottom": 594.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Абай жолы. Бірінші кітапИндивидуальный экземпляр · 1 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "x": 105,
+              "y": 607.984375,
+              "bottom": 694.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 1 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "x": 105,
+              "y": 694.984375,
+              "bottom": 781.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1666.4375,
+              "y": 369.796875,
+              "bottom": 425.796875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1642.65625,
+              "y": 984,
+              "bottom": 1056,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "10-reduced-motion-reading",
+          "path": "screenshots\\identify-reference\\1920x1080\\10-reduced-motion-reading.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "11-reduced-motion-error",
+          "path": "screenshots\\identify-reference\\1920x1080\\11-reduced-motion-error.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1728,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1800,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1661.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 94,
+              "x": 762,
+              "y": 824,
+              "bottom": 918,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1232,
+              "y": 942,
+              "bottom": 998,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 735,
+            "y": 344,
+            "width": 450,
+            "height": 370,
+            "bottom": 714,
+            "centerX": 960,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 666.765625,
+            "y": 184,
+            "width": 586.46875,
+            "height": 58,
+            "bottom": 242,
+            "centerX": 960,
+            "fontSize": "46px",
+            "lineHeight": "58px"
+          },
+          "subtitle": {
+            "x": 693.59375,
+            "y": 254,
+            "width": 532.796875,
+            "height": 42,
+            "bottom": 296,
+            "centerX": 959.9921875,
+            "fontSize": "27px",
+            "lineHeight": "42px"
+          },
+          "manual": {
+            "x": 762,
+            "y": 824,
+            "width": 396,
+            "height": 94,
+            "bottom": 918,
+            "centerX": 960,
+            "fontSize": "28px",
+            "lineHeight": "42px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "12-reduced-motion-success",
+          "path": "screenshots\\identify-reference\\1920x1080\\12-reduced-motion-success.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "observations": [
+        {
+          "type": "reference-geometry",
+          "closed": {
+            "card": {
+              "x": 852,
+              "y": 344,
+              "width": 216,
+              "height": 370,
+              "centerX": 960,
+              "bottom": 714
+            },
+            "heading": {
+              "x": 666.765625,
+              "y": 184,
+              "width": 586.46875,
+              "height": 58,
+              "centerX": 960,
+              "bottom": 242
+            },
+            "manual": {
+              "x": 762,
+              "y": 824,
+              "width": 396,
+              "height": 94
+            }
+          },
+          "help": {
+            "x": 1538,
+            "y": 234,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 661.1875,
+            "centerX": 1713,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "helpDoesNotMoveComposition": true,
+          "newScanBlockedWhileHelpOpen": true
+        },
+        {
+          "type": "real-adapter-states",
+          "states": [
+            {
+              "state": "nfc-animation state-error",
+              "card": {
+                "x": 852,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-reading",
+              "card": {
+                "x": 852,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-success",
+              "card": {
+                "x": 852,
+                "y": 344,
+                "width": 216,
+                "height": 370
+              },
+              "successMark": true
+            }
+          ],
+          "readingPositions": [
+            "14.2344px",
+            "14.2812px",
+            "14.4531px",
+            "14.7188px",
+            "15.0938px",
+            "15.5781px",
+            "16.1875px",
+            "16.9062px",
+            "17.7344px",
+            "18.6875px",
+            "19.75px",
+            "20.9375px",
+            "22.2344px",
+            "23.6719px",
+            "25.2188px",
+            "26.875px",
+            "28.6719px",
+            "30.5625px",
+            "32.6094px",
+            "34.7812px",
+            "37.0469px",
+            "39.4688px",
+            "42px",
+            "44.6719px",
+            "47.4531px",
+            "50.3594px",
+            "53.3906px",
+            "56.5312px",
+            "59.7812px",
+            "63.1875px",
+            "66.7031px"
+          ],
+          "stationaryCard": {
+            "x": 852,
+            "y": 344,
+            "width": 216,
+            "height": 370,
+            "centerX": 960,
+            "bottom": 714
+          }
+        },
+        {
+          "type": "pending-identification",
+          "heldWhileHelpOpen": true,
+          "readerAfterClose": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "same-document-route-cancellation",
+          "from": "issue",
+          "to": "#/accept",
+          "previousCard": "EDUS-1001",
+          "selectedAfterNewScan": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "issue",
+          "query": "Айша",
+          "selected": "Сәрсенова Айша Ерланқызы"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "accept",
+          "query": "Әлихан",
+          "selected": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "reduced-motion",
+          "runningAnimations": 0,
+          "visibleStaticReadingLine": true,
+          "errorAndSuccessFromAdapter": true
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 900,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "reference-open-closed-help-and-geometry",
+          "passed": true
+        },
+        {
+          "name": "idle-stability-both-operations",
+          "passed": true
+        },
+        {
+          "name": "live-error-retry-reading-success",
+          "passed": true
+        },
+        {
+          "name": "pending-identification-kept-behind-help",
+          "passed": true
+        },
+        {
+          "name": "cancel-inflight-does-not-navigate-late",
+          "passed": true
+        },
+        {
+          "name": "operation-route-cancels-inflight-identification",
+          "passed": true
+        },
+        {
+          "name": "manual-search-distinct-readers-preserves-context",
+          "passed": true
+        },
+        {
+          "name": "reduced-motion-real-states",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-help-open",
+          "path": "screenshots\\identify-reference\\1600x900\\01-help-open.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1507,
+              "y": 215,
+              "bottom": 271,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": {
+            "x": 1218,
+            "y": 210,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 637.1875,
+            "centerX": 1393,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-help-closed",
+          "path": "screenshots\\identify-reference\\1600x900\\02-help-closed.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1408,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1480,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 602,
+              "y": 684,
+              "bottom": 764,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-issue-idle",
+          "path": "screenshots\\identify-reference\\1600x900\\03-issue-idle.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1408,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1480,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 602,
+              "y": 684,
+              "bottom": 764,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-accept-idle",
+          "path": "screenshots\\identify-reference\\1600x900\\03-accept-idle.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1408,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1480,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 602,
+              "y": 684,
+              "bottom": 764,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-error",
+          "path": "screenshots\\identify-reference\\1600x900\\04-error.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1408,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1480,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 602,
+              "y": 684,
+              "bottom": 764,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1072,
+              "y": 788,
+              "bottom": 844,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading",
+          "path": "screenshots\\identify-reference\\1600x900\\05-reading.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "name": "06-success",
+          "path": "screenshots\\identify-reference\\1600x900\\06-success.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "name": "07-accept-reader-selected",
+          "path": "screenshots\\identify-reference\\1600x900\\07-accept-reader-selected.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1424,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1496,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 481.3125,
+              "height": 56,
+              "x": 64,
+              "y": 372.984375,
+              "bottom": 428.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 397.484375,
+              "y": 473.984375,
+              "bottom": 529.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "x": 57,
+              "y": 542.984375,
+              "bottom": 629.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "x": 57,
+              "y": 629.984375,
+              "bottom": 716.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1394.453125,
+              "y": 300.734375,
+              "bottom": 356.734375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1322.65625,
+              "y": 804,
+              "bottom": 876,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "08-pending-success-help-open",
+          "path": "screenshots\\identify-reference\\1600x900\\08-pending-success-help-open.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1507,
+              "y": 215,
+              "bottom": 271,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": {
+            "x": 1218,
+            "y": 210,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 637.1875,
+            "centerX": 1393,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-issue-selected",
+          "path": "screenshots\\identify-reference\\1600x900\\09-manual-issue-selected.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1424,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1496,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 253.109375,
+              "height": 56,
+              "x": 178.09375,
+              "y": 606.09375,
+              "bottom": 662.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1394.453125,
+              "y": 300.734375,
+              "bottom": 356.734375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1322.65625,
+              "y": 804,
+              "bottom": 876,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-accept-selected",
+          "path": "screenshots\\identify-reference\\1600x900\\09-manual-accept-selected.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1424,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1496,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 128,
+              "bottom": 184,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 481.3125,
+              "height": 56,
+              "x": 64,
+              "y": 372.984375,
+              "bottom": 428.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 397.484375,
+              "y": 473.984375,
+              "bottom": 529.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Абай жолы. Бірінші кітапИндивидуальный экземпляр · 1 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "x": 57,
+              "y": 542.984375,
+              "bottom": 629.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 1 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "x": 57,
+              "y": 629.984375,
+              "bottom": 716.984375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1394.453125,
+              "y": 300.734375,
+              "bottom": 356.734375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1322.65625,
+              "y": 804,
+              "bottom": 876,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "10-reduced-motion-reading",
+          "path": "screenshots\\identify-reference\\1600x900\\10-reduced-motion-reading.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "name": "11-reduced-motion-error",
+          "path": "screenshots\\identify-reference\\1600x900\\11-reduced-motion-error.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1408,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1480,
+              "y": 21.5,
+              "bottom": 77.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1341.515625,
+              "y": 116,
+              "bottom": 172,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 602,
+              "y": 684,
+              "bottom": 764,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 1072,
+              "y": 788,
+              "bottom": 844,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 611.484375,
+            "y": 304,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 614,
+            "centerX": 799.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 533.65625,
+            "y": 184,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 236,
+            "centerX": 799.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 553.328125,
+            "y": 244,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 280,
+            "centerX": 799.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 602,
+            "y": 684,
+            "width": 396,
+            "height": 80,
+            "bottom": 764,
+            "centerX": 800,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "12-reduced-motion-success",
+          "path": "screenshots\\identify-reference\\1600x900\\12-reduced-motion-success.png",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "observations": [
+        {
+          "type": "reference-geometry",
+          "closed": {
+            "card": {
+              "x": 709.5,
+              "y": 304,
+              "width": 180.953125,
+              "height": 310,
+              "centerX": 799.9765625,
+              "bottom": 614
+            },
+            "heading": {
+              "x": 533.65625,
+              "y": 184,
+              "width": 532.671875,
+              "height": 52,
+              "centerX": 799.9921875,
+              "bottom": 236
+            },
+            "manual": {
+              "x": 602,
+              "y": 684,
+              "width": 396,
+              "height": 80
+            }
+          },
+          "help": {
+            "x": 1218,
+            "y": 210,
+            "width": 350,
+            "height": 427.1875,
+            "bottom": 637.1875,
+            "centerX": 1393,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "helpDoesNotMoveComposition": true,
+          "newScanBlockedWhileHelpOpen": true
+        },
+        {
+          "type": "real-adapter-states",
+          "states": [
+            {
+              "state": "nfc-animation state-error",
+              "card": {
+                "x": 709.5,
+                "y": 304,
+                "width": 180.953125,
+                "height": 310
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-reading",
+              "card": {
+                "x": 709.5,
+                "y": 304,
+                "width": 180.953125,
+                "height": 310
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-success",
+              "card": {
+                "x": 709.5,
+                "y": 304,
+                "width": 180.953125,
+                "height": 310
+              },
+              "successMark": true
+            }
+          ],
+          "readingPositions": [
+            "11.8281px",
+            "11.875px",
+            "12.0156px",
+            "12.2344px",
+            "12.5469px",
+            "12.9531px",
+            "13.4531px",
+            "14.0469px",
+            "14.75px",
+            "15.5312px",
+            "16.4219px",
+            "17.4062px",
+            "18.4844px",
+            "19.6719px",
+            "20.9688px",
+            "22.3438px",
+            "23.8281px",
+            "25.4219px",
+            "27.125px",
+            "28.9219px",
+            "30.8125px",
+            "32.8125px",
+            "34.9219px",
+            "37.125px",
+            "39.4531px",
+            "41.8594px",
+            "44.375px",
+            "47px",
+            "49.7344px",
+            "52.5469px"
+          ],
+          "stationaryCard": {
+            "x": 709.5,
+            "y": 304,
+            "width": 180.953125,
+            "height": 310,
+            "centerX": 799.9765625,
+            "bottom": 614
+          }
+        },
+        {
+          "type": "pending-identification",
+          "heldWhileHelpOpen": true,
+          "readerAfterClose": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "same-document-route-cancellation",
+          "from": "issue",
+          "to": "#/accept",
+          "previousCard": "EDUS-1001",
+          "selectedAfterNewScan": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "issue",
+          "query": "Айша",
+          "selected": "Сәрсенова Айша Ерланқызы"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "accept",
+          "query": "Әлихан",
+          "selected": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "reduced-motion",
+          "runningAnimations": 0,
+          "visibleStaticReadingLine": true,
+          "errorAndSuccessFromAdapter": true
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "reference-open-closed-help-and-geometry",
+          "passed": true
+        },
+        {
+          "name": "idle-stability-both-operations",
+          "passed": true
+        },
+        {
+          "name": "live-error-retry-reading-success",
+          "passed": true
+        },
+        {
+          "name": "pending-identification-kept-behind-help",
+          "passed": true
+        },
+        {
+          "name": "cancel-inflight-does-not-navigate-late",
+          "passed": true
+        },
+        {
+          "name": "operation-route-cancels-inflight-identification",
+          "passed": true
+        },
+        {
+          "name": "manual-search-distinct-readers-preserves-context",
+          "passed": true
+        },
+        {
+          "name": "reduced-motion-real-states",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-help-open",
+          "path": "screenshots\\identify-reference\\1366x768\\01-help-open.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1273,
+              "y": 193,
+              "bottom": 249,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": {
+            "x": 984,
+            "y": 188,
+            "width": 350,
+            "height": 415.1875,
+            "bottom": 603.1875,
+            "centerX": 1159,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-help-closed",
+          "path": "screenshots\\identify-reference\\1366x768\\02-help-closed.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1202,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1270,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 72,
+              "x": 485,
+              "y": 586,
+              "bottom": 658,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-issue-idle",
+          "path": "screenshots\\identify-reference\\1366x768\\03-issue-idle.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1202,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1270,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 72,
+              "x": 485,
+              "y": 586,
+              "bottom": 658,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-accept-idle",
+          "path": "screenshots\\identify-reference\\1366x768\\03-accept-idle.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1202,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1270,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 72,
+              "x": 485,
+              "y": 586,
+              "bottom": 658,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-error",
+          "path": "screenshots\\identify-reference\\1366x768\\04-error.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1202,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1270,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 72,
+              "x": 485,
+              "y": 586,
+              "bottom": 658,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 955,
+              "y": 682,
+              "bottom": 738,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading",
+          "path": "screenshots\\identify-reference\\1366x768\\05-reading.png",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "name": "06-success",
+          "path": "screenshots\\identify-reference\\1366x768\\06-success.png",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "name": "07-accept-reader-selected",
+          "path": "screenshots\\identify-reference\\1366x768\\07-accept-reader-selected.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1210,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1278,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 415.046875,
+              "height": 56,
+              "x": 48,
+              "y": 324.09375,
+              "bottom": 380.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 315.21875,
+              "y": 425.09375,
+              "bottom": 481.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "x": 41,
+              "y": 494.09375,
+              "bottom": 581.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "x": 41,
+              "y": 581.09375,
+              "bottom": 668.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1176.4375,
+              "y": 251.84375,
+              "bottom": 307.84375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1104.65625,
+              "y": 676,
+              "bottom": 748,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "08-pending-success-help-open",
+          "path": "screenshots\\identify-reference\\1366x768\\08-pending-success-help-open.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1273,
+              "y": 193,
+              "bottom": 249,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": {
+            "x": 984,
+            "y": 188,
+            "width": 350,
+            "height": 415.1875,
+            "bottom": 603.1875,
+            "centerX": 1159,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-issue-selected",
+          "path": "screenshots\\identify-reference\\1366x768\\09-manual-issue-selected.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1210,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1278,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 253.109375,
+              "height": 56,
+              "x": 128.96875,
+              "y": 498.546875,
+              "bottom": 554.546875,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1176.4375,
+              "y": 251.84375,
+              "bottom": 307.84375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1104.65625,
+              "y": 676,
+              "bottom": 748,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "09-manual-accept-selected",
+          "path": "screenshots\\identify-reference\\1366x768\\09-manual-accept-selected.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1210,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1278,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 415.046875,
+              "height": 56,
+              "x": 48,
+              "y": 324.09375,
+              "bottom": 380.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "x": 315.21875,
+              "y": 425.09375,
+              "bottom": 481.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Абай жолы. Бірінші кітапИндивидуальный экземпляр · 1 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "x": 41,
+              "y": 494.09375,
+              "bottom": 581.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 1 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "x": 41,
+              "y": 581.09375,
+              "bottom": 668.09375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "x": 1176.4375,
+              "y": 251.84375,
+              "bottom": 307.84375,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "x": 1104.65625,
+              "y": 676,
+              "bottom": 748,
+              "disabled": true,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": null,
+          "animation": null,
+          "heading": null,
+          "subtitle": null,
+          "manual": null,
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "10-reduced-motion-reading",
+          "path": "screenshots\\identify-reference\\1366x768\\10-reduced-motion-reading.png",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "name": "11-reduced-motion-error",
+          "path": "screenshots\\identify-reference\\1366x768\\11-reduced-motion-error.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 1202,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 1270,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 40,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 1123.515625,
+              "y": 96,
+              "bottom": 152,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 72,
+              "x": 485,
+              "y": 586,
+              "bottom": 658,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "x": 955,
+              "y": 682,
+              "bottom": 738,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 524.890625,
+            "y": 268,
+            "width": 316.203125,
+            "height": 260,
+            "bottom": 528,
+            "centerX": 682.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 443.5625,
+            "y": 160,
+            "width": 478.875,
+            "height": 48,
+            "bottom": 208,
+            "centerX": 683,
+            "fontSize": "38px",
+            "lineHeight": "48px"
+          },
+          "subtitle": {
+            "x": 456.0625,
+            "y": 216,
+            "width": 453.859375,
+            "height": 34,
+            "bottom": 250,
+            "centerX": 682.9921875,
+            "fontSize": "23px",
+            "lineHeight": "34px"
+          },
+          "manual": {
+            "x": 485,
+            "y": 586,
+            "width": 396,
+            "height": 72,
+            "bottom": 658,
+            "centerX": 683,
+            "fontSize": "24px",
+            "lineHeight": "36px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "12-reduced-motion-success",
+          "path": "screenshots\\identify-reference\\1366x768\\12-reduced-motion-success.png",
+          "width": 1366,
+          "height": 768
+        }
+      ],
+      "observations": [
+        {
+          "type": "reference-geometry",
+          "closed": {
+            "card": {
+              "x": 607.09375,
+              "y": 268,
+              "width": 151.765625,
+              "height": 260,
+              "centerX": 682.9765625,
+              "bottom": 528
+            },
+            "heading": {
+              "x": 443.5625,
+              "y": 160,
+              "width": 478.875,
+              "height": 48,
+              "centerX": 683,
+              "bottom": 208
+            },
+            "manual": {
+              "x": 485,
+              "y": 586,
+              "width": 396,
+              "height": 72
+            }
+          },
+          "help": {
+            "x": 984,
+            "y": 188,
+            "width": 350,
+            "height": 415.1875,
+            "bottom": 603.1875,
+            "centerX": 1159,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "helpDoesNotMoveComposition": true,
+          "newScanBlockedWhileHelpOpen": true
+        },
+        {
+          "type": "real-adapter-states",
+          "states": [
+            {
+              "state": "nfc-animation state-error",
+              "card": {
+                "x": 607.09375,
+                "y": 268,
+                "width": 151.765625,
+                "height": 260
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-reading",
+              "card": {
+                "x": 607.09375,
+                "y": 268,
+                "width": 151.765625,
+                "height": 260
+              },
+              "successMark": false
+            },
+            {
+              "state": "nfc-animation state-success",
+              "card": {
+                "x": 607.09375,
+                "y": 268,
+                "width": 151.765625,
+                "height": 260
+              },
+              "successMark": true
+            }
+          ],
+          "readingPositions": [
+            "9.82812px",
+            "9.875px",
+            "9.98438px",
+            "10.1719px",
+            "10.4219px",
+            "10.7656px",
+            "11.1875px",
+            "11.6875px",
+            "12.25px",
+            "12.9062px",
+            "13.6562px",
+            "14.4688px",
+            "15.3594px",
+            "16.3438px",
+            "17.4219px",
+            "18.5625px",
+            "19.8125px",
+            "21.125px",
+            "22.5312px",
+            "24.0156px",
+            "25.6094px",
+            "27.2656px",
+            "29.0312px",
+            "30.875px",
+            "32.7812px",
+            "34.7969px",
+            "36.875px",
+            "39.0625px",
+            "41.3125px",
+            "43.6719px"
+          ],
+          "stationaryCard": {
+            "x": 607.09375,
+            "y": 268,
+            "width": 151.765625,
+            "height": 260,
+            "centerX": 682.9765625,
+            "bottom": 528
+          }
+        },
+        {
+          "type": "pending-identification",
+          "heldWhileHelpOpen": true,
+          "readerAfterClose": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "same-document-route-cancellation",
+          "from": "issue",
+          "to": "#/accept",
+          "previousCard": "EDUS-1001",
+          "selectedAfterNewScan": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "issue",
+          "query": "Айша",
+          "selected": "Сәрсенова Айша Ерланқызы"
+        },
+        {
+          "type": "manual-reader",
+          "operation": "accept",
+          "query": "Әлихан",
+          "selected": "Нұрланұлы Әлихан"
+        },
+        {
+          "type": "reduced-motion",
+          "runningAnimations": 0,
+          "visibleStaticReadingLine": true,
+          "errorAndSuccessFromAdapter": true
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 840,
+        "height": 900,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "reference-open-closed-help-and-geometry",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-help-open",
+          "path": "screenshots\\identify-reference\\840x900\\01-help-open.png",
+          "width": 840,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Закрыть помощь",
+              "width": 56,
+              "height": 56,
+              "x": 579,
+              "y": 241.40625,
+              "bottom": 297.40625,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 329.5,
+            "y": 292,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 602,
+            "centerX": 419.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 231.484375,
+            "y": 292,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 602,
+            "centerX": 419.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 153.65625,
+            "y": 172,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 224,
+            "centerX": 419.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 173.328125,
+            "y": 232,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 268,
+            "centerX": 419.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 222,
+            "y": 672,
+            "width": 396,
+            "height": 80,
+            "bottom": 752,
+            "centerX": 420,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": {
+            "x": 200,
+            "y": 236.40625,
+            "width": 440,
+            "height": 427.1875,
+            "bottom": 663.59375,
+            "centerX": 420,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-help-closed",
+          "path": "screenshots\\identify-reference\\840x900\\02-help-closed.png",
+          "width": 840,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "x": 676,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "x": 744,
+              "y": 15.5,
+              "bottom": 71.5,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "x": 56,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "x": 581.515625,
+              "y": 104,
+              "bottom": 160,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 396,
+              "height": 80,
+              "x": 222,
+              "y": 672,
+              "bottom": 752,
+              "disabled": false,
+              "inViewport": true,
+              "unobscured": true
+            }
+          ],
+          "card": {
+            "x": 329.5,
+            "y": 292,
+            "width": 180.953125,
+            "height": 310,
+            "bottom": 602,
+            "centerX": 419.9765625,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "animation": {
+            "x": 231.484375,
+            "y": 292,
+            "width": 377.015625,
+            "height": 310,
+            "bottom": 602,
+            "centerX": 419.9921875,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "heading": {
+            "x": 153.65625,
+            "y": 172,
+            "width": 532.671875,
+            "height": 52,
+            "bottom": 224,
+            "centerX": 419.9921875,
+            "fontSize": "42px",
+            "lineHeight": "52px"
+          },
+          "subtitle": {
+            "x": 173.328125,
+            "y": 232,
+            "width": 493.328125,
+            "height": 36,
+            "bottom": 268,
+            "centerX": 419.9921875,
+            "fontSize": "25px",
+            "lineHeight": "36px"
+          },
+          "manual": {
+            "x": 222,
+            "y": 672,
+            "width": 396,
+            "height": 80,
+            "bottom": 752,
+            "centerX": 420,
+            "fontSize": "26px",
+            "lineHeight": "39px"
+          },
+          "help": null,
+          "clippedHelpText": [],
+          "helpHeadingCloseCollision": false,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        }
+      ],
+      "observations": [
+        {
+          "type": "reference-geometry",
+          "closed": {
+            "card": {
+              "x": 329.5,
+              "y": 292,
+              "width": 180.953125,
+              "height": 310,
+              "centerX": 419.9765625,
+              "bottom": 602
+            },
+            "heading": {
+              "x": 153.65625,
+              "y": 172,
+              "width": 532.671875,
+              "height": 52,
+              "centerX": 419.9921875,
+              "bottom": 224
+            },
+            "manual": {
+              "x": 222,
+              "y": 672,
+              "width": 396,
+              "height": 80
+            }
+          },
+          "help": {
+            "x": 200,
+            "y": 236.40625,
+            "width": 440,
+            "height": 427.1875,
+            "bottom": 663.59375,
+            "centerX": 420,
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          },
+          "helpDoesNotMoveComposition": true,
+          "newScanBlockedWhileHelpOpen": true
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": []
+    }
+  ],
+  "browser": "151.0.7922.34",
+  "comparison": {
+    "path": "screenshots\\identify-reference\\comparison-1536x1024.png",
+    "width": 3072,
+    "height": 1024,
+    "method": "Side-by-side at 1:1 size: source reference on the left, unchanged full viewport browser capture on the right."
+  },
+  "passed": true,
+  "finalFallbackSmoke": {
+    "path": ".qa/identify-reference-final-smoke.json",
+    "timestamp": "2026-09-16T10:21:11.252Z",
+    "passed": true,
+    "reason": "Final component fallback reduced to 253px for the existing gallery. Identification explicitly sets --card-height:370px at this viewport; its rendered composition is unchanged."
+  }
+}

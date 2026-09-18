@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-09-17T05:32:39.402Z",
+  "viewport": {
+    "width": 1600,
+    "height": 900,
+    "dpr": 1
+  },
+  "checks": [
+    {
+      "name": "issue-and-scan-errors",
+      "passed": false,
+      "error": "locator.boundingBox: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.nfc-animation .edus-card')\u001b[22m\n"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "01-home",
+      "path": "screenshots\\regression2\\1600x900\\01-home.png",
+      "fullPage": false,
+      "width": 1600,
+      "height": 900,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "document": {
+        "width": 1600,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [
+        {
+          "text": "Помощь",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1424,
+          "right": 1480,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Настройки и диагностика",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1496,
+          "right": 1552,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Выдать книгиВыберите читателя и отсканируйте книгиПо карте читателя",
+          "tag": "BUTTON",
+          "width": 480,
+          "height": 367.5,
+          "top": 333,
+          "bottom": 701,
+          "left": 56,
+          "right": 536,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Принять книгиОпределите читателя и примите его книгиПо карте читателя",
+          "tag": "BUTTON",
+          "width": 480,
+          "height": 367.5,
+          "top": 333,
+          "bottom": 701,
+          "left": 560,
+          "right": 1040,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Добавить книгиЗарегистрируйте издания и экземплярыПополнить библиотеку",
+          "tag": "BUTTON",
+          "width": 480,
+          "height": 367.5,
+          "top": 333,
+          "bottom": 701,
+          "left": 1064,
+          "right": 1544,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        }
+      ],
+      "smallTouch": [],
+      "clipped": [],
+      "tinyText": [
+        {
+          "text": "Тестовый режим",
+          "size": 14
+        }
+      ],
+      "title": "EDUS · Библиотека",
+      "h1": "Что будем делать?",
+      "overlay": false,
+      "brokenImages": []
+    },
+    {
+      "name": "display-idle",
+      "path": "screenshots\\regression2\\1600x900\\display-idle.png",
+      "fullPage": false,
+      "width": 1600,
+      "height": 900,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "document": {
+        "width": 1600,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [],
+      "smallTouch": [],
+      "clipped": [],
+      "tinyText": [],
+      "title": "EDUS · Библиотека",
+      "h1": "Добро пожаловатьв библиотеку",
+      "overlay": false,
+      "brokenImages": []
+    },
+    {
+      "name": "02-identify",
+      "path": "screenshots\\regression2\\1600x900\\02-identify.png",
+      "fullPage": false,
+      "width": 1600,
+      "height": 900,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "document": {
+        "width": 1600,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [
+        {
+          "text": "Помощь",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1408,
+          "right": 1464,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Настройки и диагностика",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1480,
+          "right": 1536,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Назад",
+          "tag": "BUTTON",
+          "width": 123.1,
+          "height": 56,
+          "top": 116,
+          "bottom": 172,
+          "left": 56,
+          "right": 179,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "На главную",
+          "tag": "BUTTON",
+          "width": 202.5,
+          "height": 56,
+          "top": 116,
+          "bottom": 172,
+          "left": 1342,
+          "right": 1544,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Найти вручную",
+          "tag": "BUTTON",
+          "width": 396,
+          "height": 80,
+          "top": 684,
+          "bottom": 764,
+          "left": 602,
+          "right": 998,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        }
+      ],
+      "smallTouch": [],
+      "clipped": [],
+      "tinyText": [
+        {
+          "text": "Тестовый режим",
+          "size": 14
+        }
+      ],
+      "title": "EDUS · Библиотека",
+      "h1": "Приложите карту ученика",
+      "overlay": false,
+      "brokenImages": []
+    },
+    {
+      "name": "FAIL-issue-and-scan-errors",
+      "path": "screenshots\\regression2\\1600x900\\FAIL-issue-and-scan-errors.png",
+      "fullPage": false,
+      "width": 1600,
+      "height": 900,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "document": {
+        "width": 1600,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [
+        {
+          "text": "Помощь",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1408,
+          "right": 1464,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Настройки и диагностика",
+          "tag": "BUTTON",
+          "width": 56,
+          "height": 56,
+          "top": 22,
+          "bottom": 78,
+          "left": 1480,
+          "right": 1536,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Назад",
+          "tag": "BUTTON",
+          "width": 123.1,
+          "height": 56,
+          "top": 116,
+          "bottom": 172,
+          "left": 56,
+          "right": 179,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "На главную",
+          "tag": "BUTTON",
+          "width": 202.5,
+          "height": 56,
+          "top": 116,
+          "bottom": 172,
+          "left": 1342,
+          "right": 1544,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        },
+        {
+          "text": "Найти вручную",
+          "tag": "BUTTON",
+          "width": 396,
+          "height": 80,
+          "top": 684,
+          "bottom": 764,
+          "left": 602,
+          "right": 998,
+          "disabled": false,
+          "inViewport": true,
+          "keyboard": false
+        }
+      ],
+      "smallTouch": [],
+      "clipped": [],
+      "tinyText": [
+        {
+          "text": "Тестовый режим",
+          "size": 14
+        }
+      ],
+      "title": "EDUS · Библиотека",
+      "h1": "Приложите карту ученика",
+      "overlay": false,
+      "brokenImages": []
+    }
+  ],
+  "console": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "badResponses": [],
+  "externalRequests": [],
+  "failures": [
+    {
+      "stage": "02-identify",
+      "kind": "interaction",
+      "scenario": "issue-and-scan-errors",
+      "message": "locator.boundingBox: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.nfc-animation .edus-card')\u001b[22m\n"
+    }
+  ]
+}

@@ -1,0 +1,3009 @@
+{
+  "timestamp": "2026-09-17T05:32:30.439Z",
+  "baseURL": "http://127.0.0.1:43180",
+  "browser": "Bundled Playwright Chromium, fresh isolated contexts",
+  "reason": "User requested full PNG exports and permits Playwright. Primary built-in browser inspection was performed separately; its documented APIs provide inline screenshots but no local PNG artifact export.",
+  "method": "Visible UI interactions only; DOM measurements are read-only; no app imports or storage mutation.",
+  "runs": [
+    {
+      "timestamp": "2026-09-17T05:32:30.732Z",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-scan-errors",
+          "passed": false,
+          "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-home",
+          "path": "screenshots\\regression2\\1920x1080\\01-home.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1744,
+              "right": 1800,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1816,
+              "right": 1872,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Выдать книгиВыберите читателя и отсканируйте книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 549.3,
+              "height": 368,
+              "top": 425,
+              "bottom": 793,
+              "left": 104,
+              "right": 653,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Принять книгиОпределите читателя и примите его книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 549.3,
+              "height": 368,
+              "top": 425,
+              "bottom": 793,
+              "left": 685,
+              "right": 1235,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить книгиЗарегистрируйте издания и экземплярыПополнить библиотеку",
+              "tag": "BUTTON",
+              "width": 549.3,
+              "height": 368,
+              "top": 425,
+              "bottom": 793,
+              "left": 1267,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Что будем делать?",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "02-identify",
+          "path": "screenshots\\regression2\\1920x1080\\02-identify.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1728,
+              "right": 1784,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1800,
+              "right": 1856,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 56,
+              "right": 179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 1662,
+              "right": 1864,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Найти вручную",
+              "tag": "BUTTON",
+              "width": 396,
+              "height": 94,
+              "top": 824,
+              "bottom": 918,
+              "left": 762,
+              "right": 1158,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Приложите карту ученика",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-empty",
+          "path": "screenshots\\regression2\\1920x1080\\03-search-empty.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1744,
+              "right": 1800,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1816,
+              "right": 1872,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 104,
+              "right": 227,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 1614,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 341,
+              "bottom": 411,
+              "left": 461,
+              "right": 1396,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 348,
+              "bottom": 404,
+              "left": 1396,
+              "right": 1452,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-none",
+          "path": "screenshots\\regression2\\1920x1080\\03-search-none.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1744,
+              "right": 1800,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1816,
+              "right": 1872,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 104,
+              "right": 227,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 1614,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 341,
+              "bottom": 411,
+              "left": 461,
+              "right": 1396,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 348,
+              "bottom": 404,
+              "left": 1396,
+              "right": 1452,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-found",
+          "path": "screenshots\\regression2\\1920x1080\\03-search-found.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1744,
+              "right": 1800,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1816,
+              "right": 1872,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 104,
+              "right": 227,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 136,
+              "bottom": 192,
+              "left": 1614,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 341,
+              "bottom": 411,
+              "left": 461,
+              "right": 1396,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 348,
+              "bottom": 404,
+              "left": 1396,
+              "right": 1452,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сәрсенова Айша Ерланқызы7 «А» класс·Карта EDUS-1001",
+              "tag": "BUTTON",
+              "width": 1000,
+              "height": 102.9,
+              "top": 469,
+              "bottom": 572,
+              "left": 460,
+              "right": 1460,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "04-scan-empty",
+          "path": "screenshots\\regression2\\1920x1080\\04-scan-empty.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1728,
+              "right": 1784,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1800,
+              "right": 1856,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 124,
+              "bottom": 180,
+              "left": 104,
+              "right": 227,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 252.2,
+              "height": 56,
+              "top": 124,
+              "bottom": 180,
+              "left": 1564,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 318,
+              "bottom": 360,
+              "left": 1556,
+              "right": 1738,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 312,
+              "height": 68,
+              "top": 782,
+              "bottom": 850,
+              "left": 381,
+              "right": 693,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 312,
+              "height": 68,
+              "top": 782,
+              "bottom": 850,
+              "left": 721,
+              "right": 1033,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 280,
+              "height": 68,
+              "top": 986,
+              "bottom": 1054,
+              "left": 48,
+              "right": 328,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 390,
+              "height": 72,
+              "top": 984,
+              "bottom": 1056,
+              "left": 1482,
+              "right": 1872,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 318,
+              "bottom": 360,
+              "left": 1556,
+              "right": 1738,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "FAIL-issue-and-scan-errors",
+          "path": "screenshots\\regression2\\1920x1080\\FAIL-issue-and-scan-errors.png",
+          "fullPage": false,
+          "width": 1920,
+          "height": 1080,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "document": {
+            "width": 1920,
+            "height": 1080
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1728,
+              "right": 1784,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1800,
+              "right": 1856,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 124,
+              "bottom": 180,
+              "left": 104,
+              "right": 227,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 252.2,
+              "height": 56,
+              "top": 124,
+              "bottom": 180,
+              "left": 1564,
+              "right": 1816,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 318,
+              "bottom": 360,
+              "left": 1556,
+              "right": 1738,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 312,
+              "height": 68,
+              "top": 782,
+              "bottom": 850,
+              "left": 381,
+              "right": 693,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 312,
+              "height": 68,
+              "top": 782,
+              "bottom": 850,
+              "left": 721,
+              "right": 1033,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 280,
+              "height": 68,
+              "top": 986,
+              "bottom": 1054,
+              "left": 48,
+              "right": 328,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 390,
+              "height": 72,
+              "top": 984,
+              "bottom": 1056,
+              "left": 1482,
+              "right": 1872,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 318,
+              "bottom": 360,
+              "left": 1556,
+              "right": 1738,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": [],
+      "failures": [
+        {
+          "stage": "04-scan-empty",
+          "kind": "interaction",
+          "scenario": "issue-and-scan-errors",
+          "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-17T05:32:39.402Z",
+      "viewport": {
+        "width": 1600,
+        "height": 900,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-scan-errors",
+          "passed": false,
+          "error": "locator.boundingBox: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.nfc-animation .edus-card')\u001b[22m\n"
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-home",
+          "path": "screenshots\\regression2\\1600x900\\01-home.png",
+          "fullPage": false,
+          "width": 1600,
+          "height": 900,
+          "viewport": {
+            "width": 1600,
+            "height": 900
+          },
+          "document": {
+            "width": 1600,
+            "height": 900
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1424,
+              "right": 1480,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1496,
+              "right": 1552,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Выдать книгиВыберите читателя и отсканируйте книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 480,
+              "height": 367.5,
+              "top": 333,
+              "bottom": 701,
+              "left": 56,
+              "right": 536,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Принять книгиОпределите читателя и примите его книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 480,
+              "height": 367.5,
+              "top": 333,
+              "bottom": 701,
+              "left": 560,
+              "right": 1040,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить книгиЗарегистрируйте издания и экземплярыПополнить библиотеку",
+              "tag": "BUTTON",
+              "width": 480,
+              "height": 367.5,
+              "top": 333,
+              "bottom": 701,
+              "left": 1064,
+              "right": 1544,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Что будем делать?",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "display-idle",
+          "path": "screenshots\\regression2\\1600x900\\display-idle.png",
+          "fullPage": false,
+          "width": 1600,
+          "height": 900,
+          "viewport": {
+            "width": 1600,
+            "height": 900
+          },
+          "document": {
+            "width": 1600,
+            "height": 900
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [],
+          "title": "EDUS · Библиотека",
+          "h1": "Добро пожаловатьв библиотеку",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "02-identify",
+          "path": "screenshots\\regression2\\1600x900\\02-identify.png",
+          "fullPage": false,
+          "width": 1600,
+          "height": 900,
+          "viewport": {
+            "width": 1600,
+            "height": 900
+          },
+          "document": {
+            "width": 1600,
+            "height": 900
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1408,
+              "right": 1464,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1480,
+              "right": 1536,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 56,
+              "right": 179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 1342,
+              "right": 1544,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Найти вручную",
+              "tag": "BUTTON",
+              "width": 396,
+              "height": 80,
+              "top": 684,
+              "bottom": 764,
+              "left": 602,
+              "right": 998,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Приложите карту ученика",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "FAIL-issue-and-scan-errors",
+          "path": "screenshots\\regression2\\1600x900\\FAIL-issue-and-scan-errors.png",
+          "fullPage": false,
+          "width": 1600,
+          "height": 900,
+          "viewport": {
+            "width": 1600,
+            "height": 900
+          },
+          "document": {
+            "width": 1600,
+            "height": 900
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1408,
+              "right": 1464,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 22,
+              "bottom": 78,
+              "left": 1480,
+              "right": 1536,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 56,
+              "right": 179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 116,
+              "bottom": 172,
+              "left": 1342,
+              "right": 1544,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Найти вручную",
+              "tag": "BUTTON",
+              "width": 396,
+              "height": 80,
+              "top": 684,
+              "bottom": 764,
+              "left": 602,
+              "right": 998,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Приложите карту ученика",
+          "overlay": false,
+          "brokenImages": []
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": [],
+      "failures": [
+        {
+          "stage": "02-identify",
+          "kind": "interaction",
+          "scenario": "issue-and-scan-errors",
+          "message": "locator.boundingBox: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.nfc-animation .edus-card')\u001b[22m\n"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-17T05:32:47.375Z",
+      "viewport": {
+        "width": 1366,
+        "height": 768,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-scan-errors",
+          "passed": false,
+          "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-home",
+          "path": "screenshots\\regression2\\1366x768\\01-home.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1210,
+              "right": 1266,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1278,
+              "right": 1334,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Выдать книгиВыберите читателя и отсканируйте книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 412.7,
+              "height": 334.5,
+              "top": 282,
+              "bottom": 616,
+              "left": 40,
+              "right": 453,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Принять книгиОпределите читателя и примите его книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 412.7,
+              "height": 334.5,
+              "top": 282,
+              "bottom": 616,
+              "left": 477,
+              "right": 889,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить книгиЗарегистрируйте издания и экземплярыПополнить библиотеку",
+              "tag": "BUTTON",
+              "width": 412.7,
+              "height": 334.5,
+              "top": 282,
+              "bottom": 616,
+              "left": 913,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Что будем делать?",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "02-identify",
+          "path": "screenshots\\regression2\\1366x768\\02-identify.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1202,
+              "right": 1258,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1270,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 96,
+              "bottom": 152,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 96,
+              "bottom": 152,
+              "left": 1124,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Найти вручную",
+              "tag": "BUTTON",
+              "width": 396,
+              "height": 72,
+              "top": 586,
+              "bottom": 658,
+              "left": 485,
+              "right": 881,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Приложите карту ученика",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-empty",
+          "path": "screenshots\\regression2\\1366x768\\03-search-empty.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1210,
+              "right": 1266,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1278,
+              "right": 1334,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 1124,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 268,
+              "bottom": 338,
+              "left": 184,
+              "right": 1119,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 275,
+              "bottom": 331,
+              "left": 1119,
+              "right": 1175,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-none",
+          "path": "screenshots\\regression2\\1366x768\\03-search-none.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1210,
+              "right": 1266,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1278,
+              "right": 1334,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 1124,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 268,
+              "bottom": 338,
+              "left": 184,
+              "right": 1119,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 275,
+              "bottom": 331,
+              "left": 1119,
+              "right": 1175,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-found",
+          "path": "screenshots\\regression2\\1366x768\\03-search-found.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1210,
+              "right": 1266,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1278,
+              "right": 1334,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 202.5,
+              "height": 56,
+              "top": 104,
+              "bottom": 160,
+              "left": 1124,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 935,
+              "height": 70,
+              "top": 268,
+              "bottom": 338,
+              "left": 184,
+              "right": 1119,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 275,
+              "bottom": 331,
+              "left": 1119,
+              "right": 1175,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сәрсенова Айша Ерланқызы7 «А» класс·Карта EDUS-1001",
+              "tag": "BUTTON",
+              "width": 1000,
+              "height": 102.9,
+              "top": 397,
+              "bottom": 499,
+              "left": 183,
+              "right": 1183,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "04-scan-empty",
+          "path": "screenshots\\regression2\\1366x768\\04-scan-empty.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1202,
+              "right": 1258,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1270,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 252.2,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 1074,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 165.5,
+              "height": 28,
+              "top": 256,
+              "bottom": 284,
+              "left": 1014,
+              "right": 1179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 287,
+              "height": 56,
+              "top": 564,
+              "bottom": 620,
+              "left": 208,
+              "right": 495,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 260,
+              "height": 56,
+              "top": 564,
+              "bottom": 620,
+              "left": 513,
+              "right": 773,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 280,
+              "height": 56,
+              "top": 684,
+              "bottom": 740,
+              "left": 32,
+              "right": 312,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 375.3,
+              "height": 72,
+              "top": 676,
+              "bottom": 748,
+              "left": 959,
+              "right": 1334,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 165.5,
+              "height": 28,
+              "top": 256,
+              "bottom": 284,
+              "left": 1014,
+              "right": 1179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "FAIL-issue-and-scan-errors",
+          "path": "screenshots\\regression2\\1366x768\\FAIL-issue-and-scan-errors.png",
+          "fullPage": false,
+          "width": 1366,
+          "height": 768,
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "document": {
+            "width": 1366,
+            "height": 768
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1202,
+              "right": 1258,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 1270,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 123.1,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 40,
+              "right": 163,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 252.2,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 1074,
+              "right": 1326,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 165.5,
+              "height": 28,
+              "top": 256,
+              "bottom": 284,
+              "left": 1014,
+              "right": 1179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 287,
+              "height": 56,
+              "top": 564,
+              "bottom": 620,
+              "left": 208,
+              "right": 495,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 260,
+              "height": 56,
+              "top": 564,
+              "bottom": 620,
+              "left": 513,
+              "right": 773,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 280,
+              "height": 56,
+              "top": 684,
+              "bottom": 740,
+              "left": 32,
+              "right": 312,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 375.3,
+              "height": 72,
+              "top": 676,
+              "bottom": 748,
+              "left": 959,
+              "right": 1334,
+              "disabled": true,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 165.5,
+              "height": 28,
+              "top": 256,
+              "bottom": 284,
+              "left": 1014,
+              "right": 1179,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 14
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": [],
+      "failures": [
+        {
+          "stage": "04-scan-empty",
+          "kind": "interaction",
+          "scenario": "issue-and-scan-errors",
+          "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-17T05:32:55.781Z",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-scan-errors",
+          "passed": false,
+          "error": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-home",
+          "path": "screenshots\\regression2\\390x844\\01-home.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 1392
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Выдать книгиВыберите читателя и отсканируйте книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 350,
+              "height": 325.7,
+              "top": 267,
+              "bottom": 593,
+              "left": 20,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Принять книгиОпределите читателя и примите его книгиПо карте читателя",
+              "tag": "BUTTON",
+              "width": 350,
+              "height": 325.7,
+              "top": 609,
+              "bottom": 934,
+              "left": 20,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить книгиЗарегистрируйте издания и экземплярыПополнить библиотеку",
+              "tag": "BUTTON",
+              "width": 350,
+              "height": 325.7,
+              "top": 950,
+              "bottom": 1276,
+              "left": 20,
+              "right": 370,
+              "disabled": false,
+              "inViewport": false,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Что будем делать?",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "02-identify",
+          "path": "screenshots\\regression2\\390x844\\02-identify.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 396,
+            "height": 844
+          },
+          "horizontalOverflow": true,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 190.8,
+              "height": 56,
+              "top": 100,
+              "bottom": 156,
+              "left": 179,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Найти вручную",
+              "tag": "BUTTON",
+              "width": 350,
+              "height": 80,
+              "top": 694,
+              "bottom": 774,
+              "left": 20,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Приложите карту ученика",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-empty",
+          "path": "screenshots\\regression2\\390x844\\03-search-empty.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 844
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 190.8,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 179,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 285,
+              "height": 70,
+              "top": 369,
+              "bottom": 439,
+              "left": 21,
+              "right": 306,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 376,
+              "bottom": 432,
+              "left": 306,
+              "right": 362,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-none",
+          "path": "screenshots\\regression2\\390x844\\03-search-none.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 844
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 190.8,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 179,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 285,
+              "height": 70,
+              "top": 369,
+              "bottom": 439,
+              "left": 21,
+              "right": 306,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 376,
+              "bottom": 432,
+              "left": 306,
+              "right": 362,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "03-search-found",
+          "path": "screenshots\\regression2\\390x844\\03-search-found.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 844
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "На главную",
+              "tag": "BUTTON",
+              "width": 190.8,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 179,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Фамилия, имя или номер карты",
+              "tag": "INPUT",
+              "width": 285,
+              "height": 70,
+              "top": 369,
+              "bottom": 439,
+              "left": 21,
+              "right": 306,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Открыть клавиатуру: Найдите читателя",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 376,
+              "bottom": 432,
+              "left": 306,
+              "right": 362,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сәрсенова Айша Ерланқызы7 «А» класс·Карта EDUS-1001",
+              "tag": "BUTTON",
+              "width": 350,
+              "height": 122.1,
+              "top": 497,
+              "bottom": 619,
+              "left": 20,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "h1": "Найдите читателя",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "04-scan-empty",
+          "path": "screenshots\\regression2\\390x844\\04-scan-empty.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 2099
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 233.7,
+              "height": 56,
+              "top": 172,
+              "bottom": 228,
+              "left": 136,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 761,
+              "bottom": 803,
+              "left": 164,
+              "right": 346,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 300,
+              "height": 86,
+              "top": 1249,
+              "bottom": 1335,
+              "left": 45,
+              "right": 345,
+              "disabled": false,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 300,
+              "height": 68,
+              "top": 1347,
+              "bottom": 1415,
+              "left": 45,
+              "right": 345,
+              "disabled": false,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 358,
+              "height": 68,
+              "top": 1905,
+              "bottom": 1973,
+              "left": 16,
+              "right": 374,
+              "disabled": true,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 358,
+              "height": 94,
+              "top": 1989,
+              "bottom": 2083,
+              "left": 16,
+              "right": 374,
+              "disabled": true,
+              "inViewport": false,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 761,
+              "bottom": 803,
+              "left": 164,
+              "right": 346,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        },
+        {
+          "name": "FAIL-issue-and-scan-errors",
+          "path": "screenshots\\regression2\\390x844\\FAIL-issue-and-scan-errors.png",
+          "fullPage": false,
+          "width": 390,
+          "height": 844,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "document": {
+            "width": 390,
+            "height": 2099
+          },
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "controls": [
+            {
+              "text": "Помощь",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 262,
+              "right": 318,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Настройки и диагностика",
+              "tag": "BUTTON",
+              "width": 56,
+              "height": 56,
+              "top": 16,
+              "bottom": 72,
+              "left": 322,
+              "right": 378,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Назад",
+              "tag": "BUTTON",
+              "width": 117,
+              "height": 56,
+              "top": 108,
+              "bottom": 164,
+              "left": 20,
+              "right": 137,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Сменить читателя",
+              "tag": "BUTTON",
+              "width": 233.7,
+              "height": 56,
+              "top": 172,
+              "bottom": 228,
+              "left": 136,
+              "right": 370,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 761,
+              "bottom": 803,
+              "left": 164,
+              "right": 346,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            },
+            {
+              "text": "Ввести номер вручную",
+              "tag": "BUTTON",
+              "width": 300,
+              "height": 86,
+              "top": 1249,
+              "bottom": 1335,
+              "left": 45,
+              "right": 345,
+              "disabled": false,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Добавить по ISBN",
+              "tag": "BUTTON",
+              "width": 300,
+              "height": 68,
+              "top": 1347,
+              "bottom": 1415,
+              "left": 45,
+              "right": 345,
+              "disabled": false,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Очистить список",
+              "tag": "BUTTON",
+              "width": 358,
+              "height": 68,
+              "top": 1905,
+              "bottom": 1973,
+              "left": 16,
+              "right": 374,
+              "disabled": true,
+              "inViewport": false,
+              "keyboard": false
+            },
+            {
+              "text": "Перейти к подтверждению",
+              "tag": "BUTTON",
+              "width": 358,
+              "height": 94,
+              "top": 1989,
+              "bottom": 2083,
+              "left": 16,
+              "right": 374,
+              "disabled": true,
+              "inViewport": false,
+              "keyboard": false
+            }
+          ],
+          "smallTouch": [
+            {
+              "text": "Показать список",
+              "tag": "BUTTON",
+              "width": 181.5,
+              "height": 42,
+              "top": 761,
+              "bottom": 803,
+              "left": 164,
+              "right": 346,
+              "disabled": false,
+              "inViewport": true,
+              "keyboard": false
+            }
+          ],
+          "clipped": [],
+          "tinyText": [
+            {
+              "text": "Тестовый режим",
+              "size": 12
+            }
+          ],
+          "title": "EDUS · Библиотека",
+          "overlay": false,
+          "brokenImages": []
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": [],
+      "externalRequests": [],
+      "failures": [
+        {
+          "stage": "02-identify",
+          "kind": "layout",
+          "message": "Horizontal overflow 396/390"
+        },
+        {
+          "stage": "04-scan-empty",
+          "kind": "interaction",
+          "scenario": "issue-and-scan-errors",
+          "message": "locator.click: Timeout 6000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Ввести код вручную', exact: true })\u001b[22m\n"
+        }
+      ]
+    }
+  ]
+}

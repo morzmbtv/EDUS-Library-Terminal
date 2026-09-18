@@ -1,0 +1,31 @@
+{
+  "baseUrl": "http://127.0.0.1:5173",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "startedAt": "2026-09-16T12:40:54.169Z",
+  "checks": [
+    "home: three actions remain in one row without document scrolling",
+    "identification: contour card, manual search, and header fit",
+    "empty issue scan: 58/42 workspace, full reader panel, unwrapped 64px actions",
+    "three books: readable rows, long title, and removable controls",
+    "long basket: fourth item is retained in an internally scrollable list",
+    "manual input: field remains available above the on-screen keyboard",
+    "help: touch dialog overlays the workflow and preserves the basket",
+    "confirmation: reader and factual basket carry forward without document scrolling",
+    "error: unknown code is visible and preserves collected books"
+  ],
+  "failures": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "metrics": {
+    "width": 1280,
+    "height": 800,
+    "innerWidth": 1280,
+    "innerHeight": 800,
+    "dpr": 1
+  },
+  "finishedAt": "2026-09-16T12:40:58.450Z",
+  "passed": true
+}

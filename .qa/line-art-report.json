@@ -1,0 +1,2158 @@
+{
+  "timestamp": "2026-09-16T09:21:25.308Z",
+  "baseURL": "http://127.0.0.1:5173",
+  "method": "Fresh isolated Chromium contexts. UI controls and scanner-like keyboard events only; read-only DOM measurement and mutation observation. Source SVG inspected as an asset, without importing application state.",
+  "asset": {
+    "path": "public/assets/edus-card-schematic.svg",
+    "viewBox": "0 0 200 308",
+    "fills": [
+      "none"
+    ],
+    "strokes": [
+      "#0B1A4D",
+      "#E39300"
+    ],
+    "strokeWidths": [
+      1.5
+    ],
+    "rasterOrEffects": false,
+    "goldFill": false,
+    "passed": true
+  },
+  "runs": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-accept-identify",
+          "passed": true
+        },
+        {
+          "name": "live-adapter-states",
+          "passed": true
+        },
+        {
+          "name": "gallery-states-and-reduced-motion",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-issue-identify",
+          "path": "screenshots\\line-art\\1920x1080\\01-issue-identify.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 878,
+            "y": 533.59375,
+            "width": 164,
+            "height": 253,
+            "bottom": 786.59375
+          },
+          "animation": {
+            "x": 820,
+            "y": 519.59375,
+            "width": 280,
+            "height": 281,
+            "bottom": 800.59375
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "01-accept-identify",
+          "path": "screenshots\\line-art\\1920x1080\\01-accept-identify.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 878,
+            "y": 533.59375,
+            "width": 164,
+            "height": 253,
+            "bottom": 786.59375
+          },
+          "animation": {
+            "x": 820,
+            "y": 519.59375,
+            "width": 280,
+            "height": 281,
+            "bottom": 800.59375
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-live-card-error",
+          "path": "screenshots\\line-art\\1920x1080\\02-live-card-error.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 878,
+            "y": 585.59375,
+            "width": 164,
+            "height": 253,
+            "bottom": 838.59375
+          },
+          "animation": {
+            "x": 820,
+            "y": 571.59375,
+            "width": 280,
+            "height": 281,
+            "bottom": 852.59375
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-live-reader-selected",
+          "path": "screenshots\\line-art\\1920x1080\\03-live-reader-selected.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": null,
+          "animation": null,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 555.09375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 569.09375,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "disabled": true,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-idle",
+          "path": "screenshots\\line-art\\1920x1080\\04-gallery-idle.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253,
+            "bottom": 678.421875
+          },
+          "animation": {
+            "x": 193,
+            "y": 411.421875,
+            "width": 280,
+            "height": 281,
+            "bottom": 692.421875
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 772,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Показать пустой результат",
+              "width": 318.75,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Убрать из списка: Алгебра. 7 класс",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-reading",
+          "path": "screenshots\\line-art\\1920x1080\\04-gallery-reading.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253,
+            "bottom": 678.421875
+          },
+          "animation": {
+            "x": 193,
+            "y": 411.421875,
+            "width": 280,
+            "height": 281,
+            "bottom": 692.421875
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 772,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Показать пустой результат",
+              "width": 318.75,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Убрать из списка: Алгебра. 7 класс",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-success",
+          "path": "screenshots\\line-art\\1920x1080\\04-gallery-success.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253,
+            "bottom": 678.421875
+          },
+          "animation": {
+            "x": 193,
+            "y": 411.421875,
+            "width": 280,
+            "height": 281,
+            "bottom": 692.421875
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 772,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Показать пустой результат",
+              "width": 318.75,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Убрать из списка: Алгебра. 7 класс",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-error",
+          "path": "screenshots\\line-art\\1920x1080\\04-gallery-error.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253,
+            "bottom": 678.421875
+          },
+          "animation": {
+            "x": 193,
+            "y": 411.421875,
+            "width": 280,
+            "height": 281,
+            "bottom": 692.421875
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 772,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Показать пустой результат",
+              "width": 318.75,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Убрать из списка: Алгебра. 7 класс",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading-reduced-motion",
+          "path": "screenshots\\line-art\\1920x1080\\05-reading-reduced-motion.png",
+          "width": 1920,
+          "height": 1080,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253,
+            "bottom": 678.421875
+          },
+          "animation": {
+            "x": 193,
+            "y": 411.421875,
+            "width": 280,
+            "height": 281,
+            "bottom": 692.421875
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 772,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Показать пустой результат",
+              "width": 318.75,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Убрать из списка: Алгебра. 7 класс",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        }
+      ],
+      "observations": [
+        {
+          "type": "identify",
+          "operation": "issue",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 878,
+            "y": 533.59375,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "identify",
+          "operation": "accept",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 878,
+            "y": 533.59375,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "live-adapter",
+          "states": [
+            "nfc-animation state-error",
+            "nfc-animation state-reading",
+            "nfc-animation state-success"
+          ]
+        },
+        {
+          "type": "gallery-geometry",
+          "stableBounds": {
+            "x": 251,
+            "y": 425.421875,
+            "width": 164,
+            "height": 253
+          },
+          "reducedMotionRunningAnimations": 0
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "badResponses": [],
+      "requestFailures": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 900,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-accept-identify",
+          "passed": true
+        },
+        {
+          "name": "live-adapter-states",
+          "passed": true
+        },
+        {
+          "name": "gallery-states-and-reduced-motion",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-issue-identify",
+          "path": "screenshots\\line-art\\1600x900\\01-issue-identify.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 718,
+            "y": 434.296875,
+            "width": 164,
+            "height": 253,
+            "bottom": 687.296875
+          },
+          "animation": {
+            "x": 660,
+            "y": 420.296875,
+            "width": 280,
+            "height": 281,
+            "bottom": 701.296875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "01-accept-identify",
+          "path": "screenshots\\line-art\\1600x900\\01-accept-identify.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 718,
+            "y": 434.296875,
+            "width": 164,
+            "height": 253,
+            "bottom": 687.296875
+          },
+          "animation": {
+            "x": 660,
+            "y": 420.296875,
+            "width": 280,
+            "height": 281,
+            "bottom": 701.296875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-live-card-error",
+          "path": "screenshots\\line-art\\1600x900\\02-live-card-error.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 718,
+            "y": 482.296875,
+            "width": 164,
+            "height": 253,
+            "bottom": 735.296875
+          },
+          "animation": {
+            "x": 660,
+            "y": 468.296875,
+            "width": 280,
+            "height": 281,
+            "bottom": 749.296875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-live-reader-selected",
+          "path": "screenshots\\line-art\\1600x900\\03-live-reader-selected.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": null,
+          "animation": null,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 481.3125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 495.3125,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "disabled": true,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-idle",
+          "path": "screenshots\\line-art\\1600x900\\04-gallery-idle.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253,
+            "bottom": 587.9375
+          },
+          "animation": {
+            "x": 73,
+            "y": 320.9375,
+            "width": 280,
+            "height": 281,
+            "bottom": 601.9375
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 732,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-reading",
+          "path": "screenshots\\line-art\\1600x900\\04-gallery-reading.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253,
+            "bottom": 587.9375
+          },
+          "animation": {
+            "x": 73,
+            "y": 320.9375,
+            "width": 280,
+            "height": 281,
+            "bottom": 601.9375
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 732,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-success",
+          "path": "screenshots\\line-art\\1600x900\\04-gallery-success.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253,
+            "bottom": 587.9375
+          },
+          "animation": {
+            "x": 73,
+            "y": 320.9375,
+            "width": 280,
+            "height": 281,
+            "bottom": 601.9375
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 732,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-error",
+          "path": "screenshots\\line-art\\1600x900\\04-gallery-error.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253,
+            "bottom": 587.9375
+          },
+          "animation": {
+            "x": 73,
+            "y": 320.9375,
+            "width": 280,
+            "height": 281,
+            "bottom": 601.9375
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 732,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading-reduced-motion",
+          "path": "screenshots\\line-art\\1600x900\\05-reading-reduced-motion.png",
+          "width": 1600,
+          "height": 900,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253,
+            "bottom": 587.9375
+          },
+          "animation": {
+            "x": 73,
+            "y": 320.9375,
+            "width": 280,
+            "height": 281,
+            "bottom": 601.9375
+          },
+          "controls": [
+            {
+              "name": "Сәрсенова Әсем Ерланқызы5 «А» класс·Карта EDUS-1004",
+              "width": 732,
+              "height": 102.890625,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Восстановить",
+              "width": 136.515625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        }
+      ],
+      "observations": [
+        {
+          "type": "identify",
+          "operation": "issue",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 718,
+            "y": 434.296875,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "identify",
+          "operation": "accept",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 718,
+            "y": 434.296875,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "live-adapter",
+          "states": [
+            "nfc-animation state-error",
+            "nfc-animation state-reading",
+            "nfc-animation state-success"
+          ]
+        },
+        {
+          "type": "detail-capture",
+          "state": "idle",
+          "path": "screenshots\\line-art\\1600x900\\card-idle-detail.png"
+        },
+        {
+          "type": "detail-capture",
+          "state": "reading",
+          "path": "screenshots\\line-art\\1600x900\\card-reading-detail.png"
+        },
+        {
+          "type": "detail-capture",
+          "state": "success",
+          "path": "screenshots\\line-art\\1600x900\\card-success-detail.png"
+        },
+        {
+          "type": "detail-capture",
+          "state": "error",
+          "path": "screenshots\\line-art\\1600x900\\card-error-detail.png"
+        },
+        {
+          "type": "gallery-geometry",
+          "stableBounds": {
+            "x": 131,
+            "y": 334.9375,
+            "width": 164,
+            "height": 253
+          },
+          "reducedMotionRunningAnimations": 0
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "badResponses": [],
+      "requestFailures": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768,
+        "dpr": 1
+      },
+      "checks": [
+        {
+          "name": "issue-and-accept-identify",
+          "passed": true
+        },
+        {
+          "name": "live-adapter-states",
+          "passed": true
+        },
+        {
+          "name": "gallery-states-and-reduced-motion",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "name": "01-issue-identify",
+          "path": "screenshots\\line-art\\1366x768\\01-issue-identify.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 601,
+            "y": 356.546875,
+            "width": 164,
+            "height": 253,
+            "bottom": 609.546875
+          },
+          "animation": {
+            "x": 543,
+            "y": 342.546875,
+            "width": 280,
+            "height": 281,
+            "bottom": 623.546875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "01-accept-identify",
+          "path": "screenshots\\line-art\\1366x768\\01-accept-identify.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 601,
+            "y": 356.546875,
+            "width": 164,
+            "height": 253,
+            "bottom": 609.546875
+          },
+          "animation": {
+            "x": 543,
+            "y": 342.546875,
+            "width": 280,
+            "height": 281,
+            "bottom": 623.546875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "02-live-card-error",
+          "path": "screenshots\\line-art\\1366x768\\02-live-card-error.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": {
+            "x": 601,
+            "y": 399.546875,
+            "width": 164,
+            "height": 253,
+            "bottom": 652.546875
+          },
+          "animation": {
+            "x": 543,
+            "y": 385.546875,
+            "width": 280,
+            "height": 281,
+            "bottom": 666.546875
+          },
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Закрыть сообщение",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Найти вручную",
+              "width": 257.25,
+              "height": 72,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "03-live-reader-selected",
+          "path": "screenshots\\line-art\\1366x768\\03-live-reader-selected.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": false,
+          "card": null,
+          "animation": null,
+          "controls": [
+            {
+              "name": "Помощь",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Настройки и диагностика",
+              "width": 56,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Назад",
+              "width": 123.0625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "На главную",
+              "width": 202.484375,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ввести код вручную",
+              "width": 415.046875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Выбрать все",
+              "width": 138.828125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Алгебра. 7 классИндивидуальный экземпляр · 1 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Қазақстан тарихы. 8-сыныпСтарый фонд · 2 шт.",
+              "width": 429.046875,
+              "height": 87,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Изменить",
+              "width": 124.546875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Продолжить",
+              "width": 229.34375,
+              "height": 72,
+              "disabled": true,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-idle",
+          "path": "screenshots\\line-art\\1366x768\\04-gallery-idle.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253,
+            "bottom": 521.890625
+          },
+          "animation": {
+            "x": 73,
+            "y": 254.890625,
+            "width": 280,
+            "height": 281,
+            "bottom": 535.890625
+          },
+          "controls": [
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-reading",
+          "path": "screenshots\\line-art\\1366x768\\04-gallery-reading.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253,
+            "bottom": 521.890625
+          },
+          "animation": {
+            "x": 73,
+            "y": 254.890625,
+            "width": 280,
+            "height": 281,
+            "bottom": 535.890625
+          },
+          "controls": [
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-success",
+          "path": "screenshots\\line-art\\1366x768\\04-gallery-success.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253,
+            "bottom": 521.890625
+          },
+          "animation": {
+            "x": 73,
+            "y": 254.890625,
+            "width": 280,
+            "height": 281,
+            "bottom": 535.890625
+          },
+          "controls": [
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "04-gallery-error",
+          "path": "screenshots\\line-art\\1366x768\\04-gallery-error.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253,
+            "bottom": 521.890625
+          },
+          "animation": {
+            "x": 73,
+            "y": 254.890625,
+            "width": 280,
+            "height": 281,
+            "bottom": 535.890625
+          },
+          "controls": [
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        },
+        {
+          "name": "05-reading-reduced-motion",
+          "path": "screenshots\\line-art\\1366x768\\05-reading-reduced-motion.png",
+          "width": 1366,
+          "height": 768,
+          "horizontalOverflow": false,
+          "verticalOverflow": true,
+          "card": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253,
+            "bottom": 521.890625
+          },
+          "animation": {
+            "x": 73,
+            "y": 254.890625,
+            "width": 280,
+            "height": 281,
+            "bottom": 535.890625
+          },
+          "controls": [
+            {
+              "name": "Ожидание",
+              "width": 145.5625,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Чтение",
+              "width": 115.171875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Успех",
+              "width": 100.6875,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            },
+            {
+              "name": "Ошибка",
+              "width": 124.078125,
+              "height": 56,
+              "disabled": false,
+              "unobscured": true
+            }
+          ],
+          "assetLoaded": true,
+          "brokenImages": [],
+          "frameworkOverlay": false
+        }
+      ],
+      "observations": [
+        {
+          "type": "identify",
+          "operation": "issue",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 601,
+            "y": 356.546875,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "identify",
+          "operation": "accept",
+          "manual": {
+            "width": 257.25,
+            "height": 72,
+            "unobscured": true
+          },
+          "card": {
+            "x": 601,
+            "y": 356.546875,
+            "width": 164,
+            "height": 253
+          },
+          "idleStableMilliseconds": 2400
+        },
+        {
+          "type": "live-adapter",
+          "states": [
+            "nfc-animation state-error",
+            "nfc-animation state-reading",
+            "nfc-animation state-success"
+          ]
+        },
+        {
+          "type": "gallery-geometry",
+          "stableBounds": {
+            "x": 131,
+            "y": 268.890625,
+            "width": 164,
+            "height": 253
+          },
+          "reducedMotionRunningAnimations": 0
+        }
+      ],
+      "failures": [],
+      "console": [],
+      "pageErrors": [],
+      "badResponses": [],
+      "requestFailures": [],
+      "externalRequests": []
+    }
+  ],
+  "browser": "151.0.7922.34",
+  "passed": true
+}

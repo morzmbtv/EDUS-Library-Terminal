@@ -1,0 +1,267 @@
+{
+  "viewport": {
+    "width": 840,
+    "height": 900,
+    "dpr": 1
+  },
+  "checks": [
+    {
+      "name": "reference-open-closed-help-and-geometry",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "01-help-open",
+      "path": "screenshots\\identify-reference\\840x900\\01-help-open.png",
+      "width": 840,
+      "height": 900,
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [
+        {
+          "name": "Закрыть помощь",
+          "width": 56,
+          "height": 56,
+          "x": 579,
+          "y": 241.40625,
+          "bottom": 297.40625,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        }
+      ],
+      "card": {
+        "x": 329.5,
+        "y": 292,
+        "width": 180.953125,
+        "height": 310,
+        "bottom": 602,
+        "centerX": 419.9765625,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "animation": {
+        "x": 231.484375,
+        "y": 292,
+        "width": 377.015625,
+        "height": 310,
+        "bottom": 602,
+        "centerX": 419.9921875,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "heading": {
+        "x": 153.65625,
+        "y": 172,
+        "width": 532.671875,
+        "height": 52,
+        "bottom": 224,
+        "centerX": 419.9921875,
+        "fontSize": "42px",
+        "lineHeight": "52px"
+      },
+      "subtitle": {
+        "x": 173.328125,
+        "y": 232,
+        "width": 493.328125,
+        "height": 36,
+        "bottom": 268,
+        "centerX": 419.9921875,
+        "fontSize": "25px",
+        "lineHeight": "36px"
+      },
+      "manual": {
+        "x": 222,
+        "y": 672,
+        "width": 396,
+        "height": 80,
+        "bottom": 752,
+        "centerX": 420,
+        "fontSize": "26px",
+        "lineHeight": "39px"
+      },
+      "help": {
+        "x": 200,
+        "y": 236.40625,
+        "width": 440,
+        "height": 427.1875,
+        "bottom": 663.59375,
+        "centerX": 420,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "clippedHelpText": [],
+      "helpHeadingCloseCollision": false,
+      "brokenImages": [],
+      "frameworkOverlay": false
+    },
+    {
+      "name": "02-help-closed",
+      "path": "screenshots\\identify-reference\\840x900\\02-help-closed.png",
+      "width": 840,
+      "height": 900,
+      "horizontalOverflow": false,
+      "verticalOverflow": false,
+      "controls": [
+        {
+          "name": "Помощь",
+          "width": 56,
+          "height": 56,
+          "x": 676,
+          "y": 15.5,
+          "bottom": 71.5,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        },
+        {
+          "name": "Настройки и диагностика",
+          "width": 56,
+          "height": 56,
+          "x": 744,
+          "y": 15.5,
+          "bottom": 71.5,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        },
+        {
+          "name": "Назад",
+          "width": 123.0625,
+          "height": 56,
+          "x": 56,
+          "y": 104,
+          "bottom": 160,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        },
+        {
+          "name": "На главную",
+          "width": 202.484375,
+          "height": 56,
+          "x": 581.515625,
+          "y": 104,
+          "bottom": 160,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        },
+        {
+          "name": "Найти вручную",
+          "width": 396,
+          "height": 80,
+          "x": 222,
+          "y": 672,
+          "bottom": 752,
+          "disabled": false,
+          "inViewport": true,
+          "unobscured": true
+        }
+      ],
+      "card": {
+        "x": 329.5,
+        "y": 292,
+        "width": 180.953125,
+        "height": 310,
+        "bottom": 602,
+        "centerX": 419.9765625,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "animation": {
+        "x": 231.484375,
+        "y": 292,
+        "width": 377.015625,
+        "height": 310,
+        "bottom": 602,
+        "centerX": 419.9921875,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "heading": {
+        "x": 153.65625,
+        "y": 172,
+        "width": 532.671875,
+        "height": 52,
+        "bottom": 224,
+        "centerX": 419.9921875,
+        "fontSize": "42px",
+        "lineHeight": "52px"
+      },
+      "subtitle": {
+        "x": 173.328125,
+        "y": 232,
+        "width": 493.328125,
+        "height": 36,
+        "bottom": 268,
+        "centerX": 419.9921875,
+        "fontSize": "25px",
+        "lineHeight": "36px"
+      },
+      "manual": {
+        "x": 222,
+        "y": 672,
+        "width": 396,
+        "height": 80,
+        "bottom": 752,
+        "centerX": 420,
+        "fontSize": "26px",
+        "lineHeight": "39px"
+      },
+      "help": null,
+      "clippedHelpText": [],
+      "helpHeadingCloseCollision": false,
+      "brokenImages": [],
+      "frameworkOverlay": false
+    }
+  ],
+  "observations": [
+    {
+      "type": "reference-geometry",
+      "closed": {
+        "card": {
+          "x": 329.5,
+          "y": 292,
+          "width": 180.953125,
+          "height": 310,
+          "centerX": 419.9765625,
+          "bottom": 602
+        },
+        "heading": {
+          "x": 153.65625,
+          "y": 172,
+          "width": 532.671875,
+          "height": 52,
+          "centerX": 419.9921875,
+          "bottom": 224
+        },
+        "manual": {
+          "x": 222,
+          "y": 672,
+          "width": 396,
+          "height": 80
+        }
+      },
+      "help": {
+        "x": 200,
+        "y": 236.40625,
+        "width": 440,
+        "height": 427.1875,
+        "bottom": 663.59375,
+        "centerX": 420,
+        "fontSize": "20px",
+        "lineHeight": "30px"
+      },
+      "helpDoesNotMoveComposition": true,
+      "newScanBlockedWhileHelpOpen": true
+    }
+  ],
+  "failures": [],
+  "console": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "badResponses": [],
+  "externalRequests": []
+}
