@@ -1,0 +1,73 @@
+#!/usr/bin/env sh
+# Portable EDUS terminal-test launcher. It derives every package path from itself.
+set -u
+
+LAUNCH_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+PACKAGE_ROOT=$(CDPATH= cd -- "$LAUNCH_DIR/.." && pwd -P)
+APP_DIR="$PACKAGE_ROOT/app"
+SERVER="$LAUNCH_DIR/terminal_test_server.py"
+PORT=43180
+VERSION_FILE="$PACKAGE_ROOT/VERSION"
+PRODUCT="EDUS Библиотека — тест"
+
+show_error() {
+  message=$1
+  runtime="${XDG_STATE_HOME:-$HOME/.local/state}/edus-library-terminal-test-portable"
+  mkdir -p "$runtime" 2>/dev/null || true
+  printf '%s\n' "$message" > "$runtime/last-error.txt" 2>/dev/null || true
+  if command -v zenity >/dev/null 2>&1; then
+    zenity --error --title="$PRODUCT" --width=460 --text="$message" 2>/dev/null || true
+  elif command -v notify-send >/dev/null 2>&1; then
+    notify-send --urgency=critical "$PRODUCT" "$message" 2>/dev/null || true
+  fi
+}
+
+if ! command -v python3 >/dev/null 2>&1; then
+  show_error "Не найден Python 3 (команда python3). Установите Python 3 и снова откройте ярлык."
+  exit 3
+fi
+PYTHON=$(command -v python3)
+CHROME=$(command -v google-chrome-stable || command -v google-chrome || true)
+if [ -z "$CHROME" ]; then
+  show_error "Не найден Google Chrome. Установите Google Chrome и снова откройте ярлык. Chromium не запускается автоматически."
+  exit 4
+fi
+if [ ! -f "$SERVER" ] || [ ! -d "$APP_DIR" ] || [ ! -f "$VERSION_FILE" ]; then
+  show_error "Файлы portable-пакета повреждены или ярлык вынесен из папки EDUS-Library-Test. Верните ярлык рядом с папками launch и app."
+  exit 5
+fi
+VERSION=$(cat "$VERSION_FILE")
+INSTANCE=$("$PYTHON" -c 'import hashlib, os, sys; print(hashlib.sha256(os.path.realpath(sys.argv[1]).encode()).hexdigest()[:16])' "$PACKAGE_ROOT")
+RUNTIME_ROOT="${XDG_STATE_HOME:-$HOME/.local/state}/edus-library-terminal-test-portable/$INSTANCE"
+PID_FILE="$RUNTIME_ROOT/server.pid"
+LOG_FILE="$RUNTIME_ROOT/server.log"
+PROFILE="$HOME/.config/edus-library-terminal-test/chrome-profile"
+mkdir -p "$RUNTIME_ROOT" "$PROFILE" || { show_error "Не удалось создать пользовательский каталог тестового режима: $RUNTIME_ROOT"; exit 6; }
+
+set +e
+"$PYTHON" "$SERVER" --check --port "$PORT" --version "$VERSION" --instance "$INSTANCE"
+STATUS=$?
+set -e
+if [ "$STATUS" -eq 11 ]; then
+  show_error "Порт 127.0.0.1:$PORT уже использует другой сервис или другую версию test-пакета. Сервис не будет остановлен автоматически. Закройте другой test-пакет или обратитесь к администратору."
+  exit 7
+fi
+if [ "$STATUS" -eq 10 ]; then
+  if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+    show_error "Предыдущий test-сервис этого пакета ещё запущен, но не отвечает. Он не будет остановлен автоматически. Подробности: $LOG_FILE"
+    exit 8
+  fi
+  nohup "$PYTHON" "$SERVER" --root "$APP_DIR" --port "$PORT" --version "$VERSION" --instance "$INSTANCE" > "$LOG_FILE" 2>&1 &
+  echo $! > "$PID_FILE"
+  tries=0
+  until "$PYTHON" "$SERVER" --check --port "$PORT" --version "$VERSION" --instance "$INSTANCE" >/dev/null 2>&1; do
+    tries=$((tries + 1))
+    if [ "$tries" -ge 20 ]; then
+      show_error "Локальный сервис test-пакета не запустился. Подробности: $LOG_FILE"
+      exit 9
+    fi
+    sleep 0.15
+  done
+fi
+
+exec "$CHROME" --kiosk --no-first-run --no-default-browser-check --user-data-dir="$PROFILE" "http://127.0.0.1:$PORT/"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=EDUS Библиотека — тест
+Comment=Локальный тестовый режим библиотечного терминала EDUS
+Exec=__INSTALL_DIR__/scripts/launch-terminal-test.sh
+Icon=__INSTALL_DIR__/icons/edus-library-terminal-test.svg
+Terminal=false
+Categories=Education;

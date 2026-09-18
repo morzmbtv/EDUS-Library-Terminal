@@ -1,0 +1,42 @@
+{
+  "root": "C:\\Users\\User\\Documents\\ChatGPT\\EDUS Libr\\public\\assets",
+  "assets": [
+    {
+      "file": "C:\\Users\\User\\Documents\\ChatGPT\\EDUS Libr\\public\\assets\\edus-card.png",
+      "bytes": 253115,
+      "format": "PNG",
+      "width": 1800,
+      "height": 2880,
+      "bitDepth": 8,
+      "colorType": 6,
+      "transparency": true
+    },
+    {
+      "file": "public\\assets\\edus-card.svg",
+      "bytes": 11399,
+      "format": "SVG",
+      "embeddedRasterCount": 0
+    },
+    {
+      "file": "C:\\Users\\User\\Documents\\ChatGPT\\EDUS Libr\\public\\assets\\edus-logo.png",
+      "bytes": 9693,
+      "format": "PNG",
+      "width": 467,
+      "height": 107,
+      "bitDepth": 8,
+      "colorType": 2,
+      "transparency": false
+    },
+    {
+      "file": "public\\assets\\favicon.svg",
+      "bytes": 206,
+      "format": "SVG",
+      "embeddedRasterCount": 0
+    },
+    {
+      "file": "public\\assets\\fonts\\NotoSans-Variable.ttf",
+      "bytes": 2049096,
+      "format": "TTF"
+    }
+  ]
+}

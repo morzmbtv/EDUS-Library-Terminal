@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=EDUS Библиотека — тест
+Comment=Локальный переносимый тестовый режим библиотечного терминала EDUS
+# %k gives this desktop file as a local path or file URI. The shell decodes a URI,
+# then starts launch/launcher beside this file. The desktop file must remain in
+# the unpacked EDUS-Library-Test folder.
+Exec=/bin/sh -c "entry=$1; case $entry in file://*) if command -v python3 >/dev/null 2>&1; then entry=$(python3 -c 'from urllib.parse import unquote, urlparse; import sys; print(unquote(urlparse(sys.argv[1]).path))' \"$entry\"); else if command -v zenity >/dev/null 2>&1; then zenity --error --title='EDUS Библиотека — тест' --text='Не найден Python 3 (python3).'; fi; exit 3; fi;; esac; exec \"$(dirname \"$entry\")/launch/launcher\" \"$entry\"" portable-launch %k
+Terminal=false
+Categories=Education;
+StartupNotify=true

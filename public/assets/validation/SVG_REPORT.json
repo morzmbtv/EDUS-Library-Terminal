@@ -1,0 +1,30 @@
+{
+  "file": "C:\\Users\\User\\Documents\\ChatGPT\\EDUS Libr\\public\\assets\\edus-card.svg",
+  "bytes": 11399,
+  "width": "600",
+  "height": "960",
+  "viewBox": "0 0 600 960",
+  "counts": {
+    "g": 7,
+    "path": 9,
+    "rect": 3,
+    "circle": 0,
+    "ellipse": 0,
+    "line": 0,
+    "polyline": 0,
+    "polygon": 0,
+    "text": 0,
+    "image": 0,
+    "clipPath": 1,
+    "mask": 0,
+    "linearGradient": 0,
+    "radialGradient": 0
+  },
+  "hasTransforms": true,
+  "hasClipPaths": true,
+  "hasMasks": false,
+  "hasGradients": false,
+  "embeddedRasterCount": 0,
+  "embeddedRasterFormats": [],
+  "extracted": []
+}

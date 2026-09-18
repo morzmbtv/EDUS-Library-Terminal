@@ -1,0 +1,17 @@
+{
+  "baseUrl": "http://127.0.0.1:43180",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "checks": [
+    "explicit scanner capture maps a raw code to one selected local copy",
+    "test badge, explicit capture, local card mapping, and browser-refresh persistence",
+    "no external or school API requests, no console errors"
+  ],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "failures": [],
+  "passed": true,
+  "finishedAt": "2026-09-17T05:43:24.998Z"
+}
