@@ -117,6 +117,11 @@ h1,h2,h3,p { margin: 0; } h1 {font-size:40px;line-height:1.22;font-weight:700;le
 .return-scanner .loan-options .review-title .btn{flex-shrink:0;padding-inline:12px;font-size:18px}
 @media(max-width:760px){.return-scanner .loan-options{flex:none;max-height:360px}}
 
+/* Main terminal entry: one title band and three equal touch actions. */
+.screen-home{overflow:hidden}.home-content{justify-content:flex-start;gap:40px;padding:56px 0 24px}.home-heading{align-items:flex-start}.home-heading h1{font-size:40px}.home-heading p{font-size:22px;line-height:1.4;margin-top:8px}.home-instruction{flex:0 0 auto;min-width:176px;min-height:60px;margin-top:4px;font-size:19px;background:var(--surface)}.home-actions{gap:20px}.home-note{display:none}
+@media(max-height:820px) and (min-width:900px){.home-content{gap:30px;padding:38px 0 16px}.home-heading h1{font-size:36px}.home-heading p{font-size:20px}.home-instruction{min-height:56px;font-size:18px}.home-actions{gap:18px}}
+@media(max-width:760px){.screen-home{overflow:visible}.home-content{padding:20px 0 28px}.home-heading{gap:18px}.home-instruction{width:100%;margin:0}.home-actions{gap:16px}}
+
 /* 10.1-inch Ubuntu kiosk: 1280×800 is the primary POS canvas. */
 @media (min-width:901px) and (max-width:1300px) and (max-height:820px){
   .app-main{padding:16px 24px;gap:12px}
@@ -151,5 +156,3 @@ h1,h2,h3,p { margin: 0; } h1 {font-size:40px;line-height:1.22;font-weight:700;le
 @media (min-width:901px) and (max-width:1300px) and (max-height:820px){.screen-scan:has(.accept-scan-layout){padding-top:12px;gap:12px}.accept-scan-layout{gap:14px}.accept-scan-workspace{grid-template-columns:minmax(0,1.32fr) minmax(0,1fr);gap:16px}.accept-scanner-column .scanner-panel{padding:16px 18px}.accept-scanner-column .scanner-copy h2{font-size:27px}.accept-scanner-column .scanner-copy p{max-width:480px;font-size:20px;line-height:1.35}.accept-scanner-column .scanner-actions{width:min(600px,100%);flex-wrap:nowrap;gap:16px;margin-top:18px}.accept-scanner-column .manual-button{min-width:0;flex:1 1 0;min-height:64px;padding-inline:12px;font-size:18px}.accept-confirm-button{min-width:356px;min-height:64px;font-size:19px}}
 @media(max-width:900px){.accept-scan-workspace{grid-template-columns:1fr}.accept-scanner-column{min-height:400px}.accept-scan-workspace>.return-loan-list{min-height:300px;max-height:520px}.accept-confirm-button{min-width:0;width:100%}}
 @media(max-width:600px){.accept-scanner-column{min-height:440px}.accept-scanner-column .scanner-actions{width:100%;gap:12px}.accept-scanner-column .manual-button{width:100%;min-width:0}.action-bar:has(.accept-confirm-button){align-items:stretch}.action-bar:has(.accept-confirm-button) .action-left,.action-bar:has(.accept-confirm-button) .action-right{width:100%}}
-
-\n

@@ -131,7 +131,7 @@ function validStoredState(value: unknown): value is DataState {
   }
   return Object.values(value.operations).every((entry) => {
     if (!isRecord(entry) || typeof entry.fingerprint !== 'string' || !isRecord(entry.result)) return false
-    const result = entry.resul
+    const result = entry.result
     return typeof result.operationId === 'string' && ['issue', 'accept', 'register'].includes(String(result.type))
       && Number.isSafeInteger(result.quantity) && Number(result.quantity) > 0
       && Array.isArray(result.copyIds) && result.copyIds.every((id: unknown) => typeof id === 'string')
@@ -249,7 +249,7 @@ export function createMockAdapter(options: {
     const result = apply(draft)
     draft.operations[operationId] = { fingerprint, result }
     save(draft)
-    state = draf
+    state = draft
     if (outcome === 'unknown') {
       throw new DomainError('UNKNOWN', 'Ответ не получен. Проверьте результат операции перед повторной отправкой.', operationId)
     }
@@ -379,7 +379,7 @@ export function createMockAdapter(options: {
           if (!draft.titles.some((candidate) => candidate.id === inputTitle)) fail('NOT_FOUND', 'Издание не найдено.')
           titleId = inputTitle
         } else {
-          const textFields = ['name', 'author', 'publisher', 'language', 'subject', 'grade', 'isbn'] as cons
+          const textFields = ['name', 'author', 'publisher', 'language', 'subject', 'grade', 'isbn'] as const
           if (textFields.some((key) => typeof inputTitle[key] !== 'string' || inputTitle[key].length > 300)
             || !inputTitle.name.trim() || !inputTitle.author.trim() || !inputTitle.language.trim()
             || !Number.isInteger(inputTitle.year) || inputTitle.year < 1400 || inputTitle.year > new Date().getFullYear() + 1) {
@@ -439,7 +439,7 @@ export function createMockAdapter(options: {
       const draft = clone(state)
       draft.cardBindings[code] = readerId
       save(draft)
-      state = draf
+      state = draft
     },
 
     bindTestCode(kind: 'copy' | 'title', id: string, rawCode: string): void {
@@ -450,7 +450,7 @@ export function createMockAdapter(options: {
       const draft = clone(state)
       draft.scanBindings[code] = { kind, id }
       save(draft)
-      state = draf
+      state = draft
     },
 
     resetTestData(): void {
@@ -463,7 +463,7 @@ export function createMockAdapter(options: {
         }
       }
       save(draft)
-      state = draf
+      state = draft
       nextOutcome = 'success'
       nextDelayMs = undefined
     },
@@ -477,5 +477,3 @@ export function createMockAdapter(options: {
 }
 
 export type MockAdapter = TerminalAdapter
-
-\n

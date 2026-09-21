@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, defineAsyncComponent, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
-import { ArrowLeft, ArrowRight, BookOpen, Check, CircleAlert, Clock3, Home, Keyboard, LibraryBig, Monitor, ShieldCheck, SlidersHorizontal, X } from '@lucide/vue'
+import { ArrowLeft, ArrowRight, BookOpen, Check, CircleAlert, CircleHelp, Clock3, Home, Keyboard, LibraryBig, Monitor, SlidersHorizontal, X } from '@lucide/vue'
 import TerminalShell from './components/TerminalShell.vue'
 import SystemHeader from './components/SystemHeader.vue'
 import HomeAction from './components/HomeAction.vue'
@@ -18,7 +18,8 @@ import QuantityControl from './components/QuantityControl.vue'
 import ContextHelp from './components/ContextHelp.vue'
 import ReturnLoanList, { type ReturnLoanListItem } from './components/ReturnLoanList.vue'
 import RegistrationView from './views/RegistrationView.vue'
-import { screen,operation,reader,basket,busy,message,info,sessionExpired,nfcState,query,searching,searchResults,searched,scanValue,titleChoice,ambiguousTitles,legacyQuantity,dialog,result,operationId,server,internet,count,loans,readerCount,operationName,titleFor,codeFor,start,home,requestHome,changeReader,confirmChangeReader,back,openSearch,chooseReader,identify,scan,chooseTitle,legacyLimit,addLegacy,removeItem,clearBasket,confirm,submit,checkResult,setConnection,setOutcome,wrongReader,setIdentificationTransitionPaused,cancelIdentification,setReturnLoanQuantity,refresh,bindTerminalTestCard,bindTerminalTestCode,resetTerminalTestData,setTerminalTestDelay,snapshot } from './composables/useTerminal'
+import LibrarySearchView from './views/LibrarySearchView.vue'
+import { screen,operation,reader,basket,busy,message,info,sessionExpired,nfcState,query,searching,searchResults,searched,scanValue,titleChoice,ambiguousTitles,legacyQuantity,dialog,result,operationId,server,internet,count,loans,readerCount,operationName,titleFor,codeFor,start,home,requestHome,changeReader,confirmChangeReader,back,openSearch,openLibrarySearch,chooseReader,identify,scan,chooseTitle,legacyLimit,addLegacy,removeItem,clearBasket,confirm,submit,checkResult,setConnection,setOutcome,wrongReader,setIdentificationTransitionPaused,cancelIdentification,setReturnLoanQuantity,refresh,bindTerminalTestCard,bindTerminalTestCode,resetTerminalTestData,setTerminalTestDelay,snapshot } from './composables/useTerminal'
 const StudentDisplay=defineAsyncComponent(()=>import('./views/StudentDisplay.vue'))
 declare const __EDUS_DEMO_RUNTIME__: boolean
 declare const __EDUS_TERMINAL_TEST_RUNTIME__: boolean
@@ -37,12 +38,13 @@ const terminalCaptureKind=ref<''|'card'|'book'>('')
 const terminalCapturedValue=ref(''),terminalCapturedSuffix=ref('')
 watch(help, setIdentificationTransitionPaused, { flush: 'sync', immediate: true })
 const overlayOpen=computed(()=>settings.value||help.value||!!dialog.value||!!wrongReader.value||sessionExpired.value)
-const keyboard=ref<''|'search'|'scan'>('')
-const keyboardValue=computed({get:()=>keyboard.value==='search'?query.value:scanValue.value,set:(v:string)=>{if(keyboard.value==='search')query.value=v;else scanValue.value=v}})
+const keyboard=ref<''|'search'|'library-search'|'scan'>('')
+const librarySearchQuery=ref('')
+const keyboardValue=computed({get:()=>keyboard.value==='search'?query.value:keyboard.value==='library-search'?librarySearchQuery.value:scanValue.value,set:(v:string)=>{if(keyboard.value==='search')query.value=v;else if(keyboard.value==='library-search')librarySearchQuery.value=v;else scanValue.value=v}})
 const registrationRef=ref<InstanceType<typeof RegistrationView>|null>(null)
 const scanInput=ref<InstanceType<typeof TouchInput>|null>(null)
 const manualKind=ref<'inventory'|'isbn'>('inventory')
-const workflow=computed(()=>!['home','success'].includes(screen.value))
+const workflow=computed(()=>!['home','library-search','success'].includes(screen.value))
 const issueScan=computed(()=>screen.value==='scan'&&operation.value==='issue'&&!!reader.value)
 const acceptScan=computed(()=>screen.value==='scan'&&operation.value==='accept'&&!!reader.value)
 const returnLoans=computed<ReturnLoanListItem[]>(()=>loans.value.map(loan=>({
@@ -58,6 +60,16 @@ const heading=computed(()=>screen.value==='identify'?(operation.value==='issue'?
 const titleHelp=computed(()=>operation.value==='issue'?'Добавьте книги, которые хотите выдать читателю.':'Сканируйте книги выбранного читателя или выберите их из списка.')
 function globalBack(){if(screen.value==='registration')registrationRef.value?.back();else back()}
 function globalHome(){if(screen.value==='registration')registrationRef.value?.requestLeave();else requestHome()}
+function openLibrarySearchRoute(){
+  openLibrarySearch();librarySearchQuery.value=''
+  if(location.hash!=='#/library-search')window.history.pushState(null,'','#/library-search')
+  route.value=location.hash
+}
+function leaveLibrarySearch(){
+  home()
+  if(location.hash==='#/library-search')window.history.pushState(null,'','#/')
+  route.value=location.hash
+}
 function openManual(){manualKind.value='inventory';scanValue.value='';dialog.value='manual';nextTick(()=>scanInput.value?.focus())}
 function openIsbn(){manualKind.value='isbn';scanValue.value='';dialog.value='manual';nextTick(()=>scanInput.value?.focus())}
 function manualSubmit(){keyboard.value='';scan(scanValue.value);if(wrongReader.value)dialog.value=''}
@@ -85,7 +97,7 @@ function setTestDelay(delayMs:number){if(setTerminalTestDelay(delayMs))info.valu
 function closeDialog(){dialog.value='';keyboard.value='';message.value=''}
 let helpReturnFocus:HTMLElement|null=null
 function openHelp(){
-  helpReturnFocus=document.querySelector<HTMLElement>(screen.value==='search'?'.reader-search input':dialog.value==='manual'?'.modal input':':focus')
+  helpReturnFocus=document.querySelector<HTMLElement>(screen.value==='search'?'.reader-search input':screen.value==='library-search'?'.library-search-view input':dialog.value==='manual'?'.modal input':':focus')
   scanBuffer='';overlayScanBuffer='';help.value=true
 }
 async function closeHelp(){
@@ -125,7 +137,7 @@ function onKey(event:KeyboardEvent){
     return
   }
   if(event.key==='Escape'){keyboard.value='';if(!busy.value){settings.value=false;dialog.value='';dismissWrongReader()};return}
-  const target=event.target as HTMLElemen
+  const target=event.target as HTMLElement
   const editable=['INPUT','TEXTAREA','SELECT'].includes(target.tagName)||target.isContentEditable
   if(overlayOpen.value&&!editable){
     scanBuffer=''
@@ -144,6 +156,11 @@ function onKey(event:KeyboardEvent){
 function updateHash(){
   route.value=location.hash
   if(route.value==='#/display'||route.value==='#/components')cancelIdentification()
+  if(route.value==='#/library-search'){
+    if(screen.value!=='library-search')openLibrarySearch()
+    return
+  }
+  if((!route.value||route.value==='#/')&&screen.value==='library-search'){home();return}
   // Workflow deep links start with identification; they never manufacture a reader.
   const requested=route.value.match(/^#\/(accept|issue)(?:\/.*)?$/)?.[1]
   if(requested&&operation.value!==requested&&screen.value==='identify'&&!basket.value.length)cancelIdentification()
@@ -185,14 +202,16 @@ function trapFocus(e:KeyboardEvent){
     <main class="app-main" :class="[{'workflow-main':workflow},`screen-${screen}`]" :aria-busy="busy" :inert="overlayOpen">
       <template v-if="screen==='home'">
         <div class="home-content">
-          <div class="home-heading"><div><h1>Что будем делать?</h1><p>Выберите операцию, чтобы начать работу.</p></div><span class="home-date">{{ date }}</span></div>
+          <div class="home-heading"><div><h1>Библиотечный терминал</h1><p>Выберите действие для работы с книгами</p></div><button class="btn secondary home-instruction" type="button" @click="openHelp"><CircleHelp :size="25" />Инструкция</button></div>
           <div class="home-actions">
-            <HomeAction title="Выдать книги" description="Выберите читателя и отсканируйте книги" icon="issue" accent @click="start('issue')" />
-            <HomeAction title="Принять книги" description="Определите читателя и примите его книги" icon="return" @click="start('accept')" />
-            <HomeAction title="Добавить книги" description="Зарегистрируйте издания и экземпляры" icon="add" @click="start('register')" />
+            <HomeAction title="Выдать книги" description="Оформить выдачу книг ученику по карте" icon="issue" action="Начать" @click="start('issue')" />
+            <HomeAction title="Принять книги" description="Оформить возврат книг от ученика" icon="return" action="Начать" @click="start('accept')" />
+            <HomeAction title="Найти книгу" description="Проверить наличие в фонде и посмотреть информацию" icon="search" action="Поиск" @click="openLibrarySearchRoute" />
           </div>
-          <div class="home-note"><ShieldCheck :stroke-width="1.8" /><span>Карта EDUS для читателя. Штрихкод — для книги.</span></div>
         </div>
+      </template>
+      <template v-else-if="screen==='library-search'">
+        <LibrarySearchView v-model="librarySearchQuery" :snapshot="snapshot" @back="leaveLibrarySearch" @keyboard="keyboard='library-search'" />
       </template>
       <template v-else-if="screen==='success'">
         <div class="success-content">
@@ -293,5 +312,3 @@ function trapFocus(e:KeyboardEvent){
 @media(max-height:820px) { .app-main.screen-identify { padding: 8px 40px 16px; gap: 8px; } }
 @media(max-width:760px) { .app-main.screen-identify { padding: 12px 20px; } }
 </style>
-
-\n

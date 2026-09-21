@@ -4,7 +4,7 @@ import { createUnavailableAdapter } from '../infrastructure/unavailableAdapter.t
 import { apiConfigured, runtimeConfig } from '../infrastructure/runtimeConfig.ts'
 
 export type Operation = 'issue' | 'accept' | 'register'
-export type Screen = 'home' | 'identify' | 'search' | 'scan' | 'confirm' | 'success' | 'unknown' | 'registration'
+export type Screen = 'home' | 'library-search' | 'identify' | 'search' | 'scan' | 'confirm' | 'success' | 'unknown' | 'registration'
 const config = runtimeConfig()
 declare const __EDUS_DEMO_RUNTIME__: boolean
 declare const __EDUS_TERMINAL_TEST_RUNTIME__: boolean
@@ -123,6 +123,13 @@ export function start(op: Operation) {
   basket.value=[];operation.value=op;reader.value=null;result.value=null;operationId.value='';clearFeedback();scanValue.value='';query.value='';titleChoice.value=null;ambiguousTitles.value=[];dialog.value='';sessionExpired.value=false;nfcState.value='idle'
   screen.value=op==='register'?'registration':'identify'
 }
+/** Opens the catalogue without carrying a reader or an operation draft into it. */
+export function openLibrarySearch() {
+  if(navigationLocked())return
+  invalidateWorkflow()
+  basket.value=[];reader.value=null;result.value=null;operationId.value='';clearFeedback();scanValue.value='';query.value='';titleChoice.value=null;ambiguousTitles.value=[];dialog.value='';sessionExpired.value=false;nfcState.value='idle'
+  screen.value='library-search'
+}
 export function home() { if(navigationLocked())return;invalidateWorkflow();screen.value='home';reader.value=null;basket.value=[];clearFeedback();dialog.value='' }
 export function requestHome() { if(navigationLocked())return;if(basket.value.length&&screen.value!=='success')dialog.value='leave';else home() }
 export function changeReader() { if(navigationLocked()||sessionExpired.value)return;clearFeedback();if(basket.value.length)dialog.value='change-reader';else{invalidateWorkflow();screen.value='identify';reader.value=null;nfcState.value='idle'} }
@@ -130,7 +137,8 @@ export function confirmChangeReader() { if(navigationLocked()||sessionExpired.va
 export function back() {
   if(navigationLocked())return
   clearFeedback()
-  if (screen.value==='search') screen.value='identify'
+  if (screen.value==='library-search') home()
+  else if (screen.value==='search') screen.value='identify'
   else if (screen.value==='confirm') screen.value='scan'
   else requestHome()
 }
@@ -156,7 +164,7 @@ export function chooseReader(r: Reader) {
 export async function identify(card: string) {
   if(busy.value || activeIdentification || identificationTransitionPaused || sessionExpired.value || screen.value!=='identify') return
   const attempt: IdentificationAttempt={version:workflowVersion,operation:operation.value,reader:null,ready:false}
-  activeIdentification=attemp
+  activeIdentification=attempt
   busy.value=true; nfcState.value='reading';clearFeedback()
   try {
     const r=await adapter.identifyCard(card)
@@ -330,5 +338,3 @@ export function bindTerminalTestCard(readerId: string, rawCode: string) { return
 export function bindTerminalTestCode(kind: 'copy' | 'title', id: string, rawCode: string) { return terminalTestAction((controls) => controls.bindTestCode(kind, id, rawCode)) }
 export function resetTerminalTestData() { return terminalTestAction((controls) => controls.resetTestData()) }
 export function setTerminalTestDelay(delayMs: number) { return terminalTestAction((controls) => controls.setNextDelay(delayMs)) }
-
-\n

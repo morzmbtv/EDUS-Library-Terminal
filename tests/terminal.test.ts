@@ -382,3 +382,19 @@ test('an error completing behind help stays an error and can be retried after cl
   await terminal.identify('EDUS-1001')
   assert.equal(selectedReaderId(terminal),'reader-1')
 })
+
+test('catalogue search starts a fresh reader-free session and returns home', async () => {
+  const terminal=await fixture()
+  terminal.start('accept')
+  terminal.chooseReader(terminal.adapter.searchReaders('EDUS-1001')[0]!)
+  terminal.scan('000123')
+  assert.equal(terminal.basket.value.length,1)
+
+  terminal.openLibrarySearch()
+  assert.equal(terminal.screen.value,'library-search')
+  assert.equal(terminal.reader.value,null)
+  assert.equal(terminal.basket.value.length,0)
+
+  terminal.back()
+  assert.equal(terminal.screen.value,'home')
+})
