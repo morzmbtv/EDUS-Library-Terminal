@@ -1,0 +1,5 @@
+.build/
+*.log
+*.zip
+*.db
+*.dpapi

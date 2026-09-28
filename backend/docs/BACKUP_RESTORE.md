@@ -1,0 +1,11 @@
+# Backup and restore
+
+`LocalDatabase::encrypted_backup` creates `backups/library-<UUID>.db` under the active workspace through rusqlite Backup API. It writes `.partial` first, verifies encrypted destination then activates the final name. Partial failures are not listed as valid backups. No live DB file copy occurs. Each SQLite copy loop is bounded to 60 seconds; BUSY/LOCKED cannot cause an infinite administrative operation. Incomplete destination Backup handles roll back on drop. Key, credentials and workspace configuration are NOT exported; backups require the same service key context.
+
+Admin command `ListBackups` uses `list_backups` returning basename, size and timestamp only. Restore accepts one canonical UUID filename from this directory, never an arbitrary path. Reparse points, oversized/small files, inaccessible keys, malformed encryption, integrity/FK failures, differing exact schema or school IDs are refused before mutation. No old schema is migrated implicitly during restore.
+
+`restore_backup(name, credentials)` currently supports **UAT only**. Caller holds workspace lease and DB mutex, requires active administrative authorization and explicit confirmation, and clears reader/HTTP state afterwards. All current UAT rows, receipts/outbox and settings are preserved first in a new encrypted recovery backup. SQLite Backup API then atomically replaces DB contents with the validated snapshot. On successful restoration, integrity/checkpoint are verified and a recovery audit event recorded. Neither selected backup nor recovery backup is deleted.
+
+Restoring historical UAT state intentionally restores its historical operations/settings too; it does not change DPAPI secrets. Pending UAT operations remain recoverable in the pre-restore snapshot. Production is TEST_MODE_REQUIRED/fail-closed until a coordinated Cloud recovery protocol exists. Do not describe production restore as implemented.
+
+Tests exercise successful restore and restart, no-key reading failure, current-state recovery snapshot, traversal rejection, foreign-key-invalid/corrupt backup rejection, and production refusal. Real disk-full interruption and installed service recovery remain separate environment tests.

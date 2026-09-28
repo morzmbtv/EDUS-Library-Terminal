@@ -1,0 +1,8 @@
+/target/
+/.build/
+*.log
+*.db
+*.db-wal
+*.db-shm
+*.dpapi
+.env

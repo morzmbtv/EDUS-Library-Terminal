@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'EDUS Sans';
+  src: url('/assets/fonts/NotoSans-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --edus-blue: #046bc8;
+  --edus-gold: #e39300;
+  --edus-navy: #0b1a4d;
+  --surface: #ffffff;
+  --background: #f8fbfe;
+  --blue-soft: #eaf3fd;
+  --gold-soft: #fff5df;
+  --muted: #5e6b82;
+  --line: #dce6f0;
+  --success: #12805c;
+  --success-soft: #eaf7f1;
+  --danger: #c7353d;
+  --danger-soft: #fff0f0;
+  --warning: #875300;
+  --radius-control: 12px;
+  --radius-panel: 18px;
+  --radius-card: 24px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --shadow: 0 4px 20px #0b1a4d06;
+  --motion: 180ms;
+  font-family: 'EDUS Sans', sans-serif;
+  color: var(--edus-navy);
+  font-synthesis: none;
+}

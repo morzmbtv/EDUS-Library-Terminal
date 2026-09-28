@@ -1,0 +1,6 @@
+[workspace]
+members = ["crates/edus-library-core", "crates/edus-library-service", "crates/edus-installer-helper", "crates/edus-library-configurator", "crates/edus-library-admin-ipc"]
+resolver = "2"
+[patch.crates-io]
+libsqlite3-sys = { path = "vendor/libsqlite3-sys-0.38.2" }
+

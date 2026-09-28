@@ -1,0 +1,7 @@
+[package]
+name = "edus-library-admin-ipc"
+version = "2.0.0-rc.1"
+edition = "2021"
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

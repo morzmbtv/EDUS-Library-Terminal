@@ -1,0 +1,443 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "EDUS Library Terminal Sync API",
+    "version": "1.1.0",
+    "description": "Local development API. Production requires approved TLS and secret infrastructure."
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8088/api"
+    }
+  ],
+  "paths": {
+    "/terminal/v1/health": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Protocol health"
+          }
+        }
+      }
+    },
+    "/terminal/v1/enroll": {
+      "post": {
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnrollmentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "One-time device credential"
+          },
+          "401": {
+            "$ref": "#/components/responses/DeviceUnauthorized"
+          },
+          "409": {
+            "$ref": "#/components/responses/ProtocolUnsupported"
+          }
+        }
+      }
+    },
+    "/terminal/v1/bootstrap": {
+      "post": {
+        "security": [
+          {
+            "terminalCredential": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Minimal tenant-scoped terminal projection"
+          },
+          "401": {
+            "$ref": "#/components/responses/DeviceUnauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/SchoolScopeViolation"
+          }
+        },
+        "parameters": [
+          {
+            "in": "header",
+            "name": "X-EDUS-Terminal-Version",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "1.1.0"
+            },
+            "description": "Minimum 1.1.0; older/missing version: HTTP 409."
+          }
+        ]
+      }
+    },
+    "/terminal/v1/changes": {
+      "get": {
+        "security": [
+          {
+            "terminalCredential": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "X-EDUS-Terminal-Version",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "1.1.0"
+            },
+            "description": "Minimum 1.1.0; older/missing version: HTTP 409."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Opaque-cursor delta",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncDelta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/terminal/v1/operations": {
+      "post": {
+        "security": [
+          {
+            "terminalCredential": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OperationBatch"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "ACK or stable per-operation conflict results"
+          },
+          "409": {
+            "$ref": "#/components/responses/ProtocolUnsupported"
+          }
+        },
+        "parameters": [
+          {
+            "in": "header",
+            "name": "X-EDUS-Terminal-Version",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "1.1.0"
+            },
+            "description": "Minimum 1.1.0; older/missing version: HTTP 409."
+          }
+        ]
+      }
+    },
+    "/terminal/v1/operations/{operationId}": {
+      "get": {
+        "security": [
+          {
+            "terminalCredential": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "operationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "in": "header",
+            "name": "X-EDUS-Terminal-Version",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "1.1.0"
+            },
+            "description": "Minimum 1.1.0; older/missing version: HTTP 409."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Persisted receipt"
+          },
+          "404": {
+            "description": "Unknown operation"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "terminalCredential": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "EDUS device credential"
+      }
+    },
+    "schemas": {
+      "EnrollmentRequest": {
+        "type": "object",
+        "required": [
+          "enrollment_code",
+          "terminal_name",
+          "sync_protocol_version",
+          "terminal_version"
+        ],
+        "properties": {
+          "enrollment_code": {
+            "type": "string",
+            "writeOnly": true
+          },
+          "terminal_name": {
+            "type": "string"
+          },
+          "sync_protocol_version": {
+            "type": "string",
+            "example": "1"
+          },
+          "terminal_version": {
+            "type": "string",
+            "example": "1.1.0"
+          }
+        }
+      },
+      "OperationBatch": {
+        "type": "object",
+        "required": [
+          "sync_protocol_version",
+          "operations"
+        ],
+        "properties": {
+          "sync_protocol_version": {
+            "type": "string"
+          },
+          "operations": {
+            "type": "array",
+            "maxItems": 50,
+            "items": {
+              "type": "object",
+              "required": [
+                "operation_id",
+                "operation_type",
+                "occurred_at",
+                "payload_hash",
+                "payload"
+              ],
+              "properties": {
+                "operation_id": {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "operation_type": {
+                  "type": "string",
+                  "enum": [
+                    "ISSUE",
+                    "RETURN",
+                    "ACCEPT",
+                    "RESERVE"
+                  ]
+                },
+                "occurred_at": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "payload_hash": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "payload_json": {
+                  "type": "string",
+                  "description": "Exact UTF-8 serialized payload whose SHA-256 is payload_hash."
+                },
+                "payload": {
+                  "oneOf": [
+                    {
+                      "type": "object"
+                    },
+                    {
+                      "type": "array",
+                      "description": "Existing terminal outbox compatibility payload"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "success",
+          "code",
+          "message"
+        ],
+        "properties": {
+          "success": {
+            "const": false
+          },
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "SyncChange": {
+        "type": "object",
+        "required": [
+          "sequence",
+          "entity_type",
+          "entity_id",
+          "version",
+          "operation",
+          "payload_kind",
+          "payload_schema_version",
+          "payload",
+          "created_at"
+        ],
+        "properties": {
+          "sequence": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "entity_type": {
+            "enum": [
+              "CLASS_UPSERT",
+              "PERSON_UPSERT",
+              "CARD_UPSERT",
+              "FACE_TEMPLATE_UPSERT",
+              "LOCATION_UPSERT",
+              "BOOK_TITLE_UPSERT",
+              "BOOK_COPY_UPSERT",
+              "LEGACY_STOCK_UPSERT",
+              "LOAN_UPSERT",
+              "RESERVATION_UPSERT"
+            ],
+            "type": "string"
+          },
+          "entity_id": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "version": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "operation": {
+            "enum": [
+              "UPSERT",
+              "DELETE"
+            ],
+            "type": "string"
+          },
+          "payload_kind": {
+            "enum": [
+              "FULL",
+              "TOMBSTONE"
+            ],
+            "type": "string"
+          },
+          "payload_schema_version": {
+            "const": 1,
+            "type": "integer"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "created_at": {
+            "format": "date-time",
+            "type": "string"
+          }
+        }
+      },
+      "SyncDelta": {
+        "type": "object",
+        "required": [
+          "changes",
+          "next_cursor"
+        ],
+        "properties": {
+          "changes": {
+            "items": {
+              "$ref": "#/components/schemas/SyncChange"
+            },
+            "type": "array"
+          },
+          "next_cursor": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "responses": {
+      "DeviceUnauthorized": {
+        "description": "Credential missing or invalid",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "SchoolScopeViolation": {
+        "description": "Credential school scope does not match request/cursor",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "ProtocolUnsupported": {
+        "description": "Batch not applied due unsupported protocol",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-edus-contract": {
+    "minimum_terminal_version": "1.1.0",
+    "enrollment": "terminal_version required; response includes card_hmac_secret. Never log this secret.",
+    "conflict": "CONFLICT includes canonical[] FULL projection set.",
+    "bootstrap": "Minimal soft-deleted parents included for foreign keys; deleted_at authoritative."
+  }
+}
